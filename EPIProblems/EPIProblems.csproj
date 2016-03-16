@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="Arrays\CelebrityMatching.cs" />
     <Compile Include="Arrays\EnumeratePrime.cs" />
+    <Compile Include="Arrays\Pascal%27sTriangle.cs" />
     <Compile Include="Arrays\RookAttack.cs" />
     <Compile Include="DynamicProgramming\Number_Ways.cs" />
     <Compile Include="Graphs\PaintBooleanMatrix.cs" />
