@@ -64,6 +64,7 @@
     <Compile Include="Arrays\EnumeratePrimeUnitTest.cs" />
     <Compile Include="Arrays\Pascal_sTriangleUnitTest.cs" />
     <Compile Include="Arrays\RookAttackUnitTest.cs" />
+    <Compile Include="Arrays\Rotate2DArrayUnitTest.cs" />
     <Compile Include="DynamicProgramming\Number_WaysUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
