@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.Arrays
 {
 	public static class MatrixSpiralOrder
 	{
+		/// <summary>
+		/// Print an n x n 2D array in spiral order
+		/// </summary>
+		/// <param name="matrix"></param>
+		/// <returns></returns>
 		public static List<int> WriteSpiralOrder(int[,] matrix)
 		{
 			List<int> result = new List<int>();
