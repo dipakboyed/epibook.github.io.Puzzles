@@ -39,10 +39,12 @@
     <Compile Include="Arrays\CelebrityMatching.cs" />
     <Compile Include="Arrays\EnumeratePrime.cs" />
     <Compile Include="Arrays\MatrixSpiralOrder.cs" />
+    <Compile Include="Arrays\NonUniformRandomNumberGenerator.cs" />
     <Compile Include="Arrays\Pascal%27sTriangle.cs" />
     <Compile Include="Arrays\RookAttack.cs" />
     <Compile Include="Arrays\Rotate2DArray.cs" />
     <Compile Include="Arrays\SudokuChecker.cs" />
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="DynamicProgramming\Number_Ways.cs" />
     <Compile Include="Graphs\PaintBooleanMatrix.cs" />
     <Compile Include="Graphs\SearchAMaze.cs" />
