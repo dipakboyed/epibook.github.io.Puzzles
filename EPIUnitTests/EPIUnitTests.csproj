@@ -60,6 +60,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Arrays\ArrayPermutationUnitTest.cs" />
     <Compile Include="Arrays\CelebrityMatchingUnitTest.cs" />
     <Compile Include="Arrays\EnumeratePrimeUnitTest.cs" />
     <Compile Include="Arrays\MatrixSpiralOrderUnitTest.cs" />
