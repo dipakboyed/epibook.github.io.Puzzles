@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="Arrays\ArrayPermutation.cs" />
     <Compile Include="Arrays\CelebrityMatching.cs" />
+    <Compile Include="Arrays\DutchFlagPartition.cs" />
     <Compile Include="Arrays\EnumeratePrime.cs" />
     <Compile Include="Arrays\MatrixSpiralOrder.cs" />
     <Compile Include="Arrays\NonUniformRandomNumberGenerator.cs" />
