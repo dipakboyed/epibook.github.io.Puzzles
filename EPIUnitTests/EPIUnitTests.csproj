@@ -64,6 +64,7 @@
     <Compile Include="Arrays\CelebrityMatchingUnitTest.cs" />
     <Compile Include="Arrays\DutchFlagPartitionUnitTest.cs" />
     <Compile Include="Arrays\EnumeratePrimeUnitTest.cs" />
+    <Compile Include="Arrays\IncrementBigIntUnitTest.cs" />
     <Compile Include="Arrays\MatrixSpiralOrderUnitTest.cs" />
     <Compile Include="Arrays\NonUniformRandomNumberGeneratorUnitTest.cs" />
     <Compile Include="Arrays\Pascal_sTriangleUnitTest.cs" />
