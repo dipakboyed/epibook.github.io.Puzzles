@@ -64,6 +64,7 @@
     <Compile Include="Arrays\CelebrityMatchingUnitTest.cs" />
     <Compile Include="Arrays\DutchFlagPartitionUnitTest.cs" />
     <Compile Include="Arrays\EnumeratePrimeUnitTest.cs" />
+    <Compile Include="Arrays\FurthestReachUnitTest.cs" />
     <Compile Include="Arrays\IncrementBigIntUnitTest.cs" />
     <Compile Include="Arrays\MatrixSpiralOrderUnitTest.cs" />
     <Compile Include="Arrays\NonUniformRandomNumberGeneratorUnitTest.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Arrays\Rotate2DArrayUnitTest.cs" />
     <Compile Include="Arrays\SudokuCheckerUnitTest.cs" />
     <Compile Include="Arrays\MultiplyBigIntUnitTest.cs" />
+    <Compile Include="Arrays\RemoveArrayElementUnitTest.cs" />
     <Compile Include="DynamicProgramming\Number_WaysUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />

@@ -40,11 +40,13 @@
     <Compile Include="Arrays\CelebrityMatching.cs" />
     <Compile Include="Arrays\DutchFlagPartition.cs" />
     <Compile Include="Arrays\EnumeratePrime.cs" />
+    <Compile Include="Arrays\FurthestReach.cs" />
     <Compile Include="Arrays\IncrementBigInt.cs" />
     <Compile Include="Arrays\MatrixSpiralOrder.cs" />
     <Compile Include="Arrays\MultiplyBigInt.cs" />
     <Compile Include="Arrays\NonUniformRandomNumberGenerator.cs" />
     <Compile Include="Arrays\Pascal%27sTriangle.cs" />
+    <Compile Include="Arrays\RemoveArrayElement.cs" />
     <Compile Include="Arrays\RookAttack.cs" />
     <Compile Include="Arrays\Rotate2DArray.cs" />
     <Compile Include="Arrays\SudokuChecker.cs" />
