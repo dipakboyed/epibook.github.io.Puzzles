@@ -81,6 +81,7 @@
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
     <Compile Include="LinkedLists\ReverseLinkedListUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\BinarySearchUnitTest.cs" />
     <Compile Include="Strings\EliasGammaEncodingUnitTest.cs" />
     <Compile Include="Strings\RunLengthEncodingUnitTest.cs" />
     <Compile Include="Strings\SinusoidalUnitTest.cs" />
