@@ -11,7 +11,7 @@ namespace EPI.UnitTests.Searching
 		private readonly int[] _sortedArray = new[] {-14, -10, 2, 108, 108, 243, 285, 285, 285, 401};
 
 		[TestMethod]
-		public void RegularBinarySearch()
+		public void BinarySearchRegular()
 		{
 			BinarySearch.Binary_Search(108, _sortedArray).Should().Be(4);
 			BinarySearch.Binary_Search(285, _sortedArray).Should().Be(7);
@@ -29,7 +29,7 @@ namespace EPI.UnitTests.Searching
 		}
 
 		[TestMethod]
-		public void SearchFirstValueLargerThanK()
+		public void BinarySearchFirstValueLargerThanK()
 		{
 			BinarySearch.SearchFirstValueLargerThanK(108, _sortedArray).Should().Be(5);
 			BinarySearch.SearchFirstValueLargerThanK(285, _sortedArray).Should().Be(9);
