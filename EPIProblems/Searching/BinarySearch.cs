@@ -62,5 +62,31 @@
 			}
 			return result;
 		}
+
+		/// <summary>
+		/// Return the first occurence of an element greater than the given key, k in the sorted array.
+		/// If k is not present in the sorted array, return the first index larger than k.
+		/// If all indices have value less than equal to k, return -1
+		/// </summary>
+		public static int SearchFirstValueLargerThanK(int k, int[] sortedArray)
+		{
+			int low = 0;
+			int high = sortedArray.Length - 1;
+			int result = -1;
+			while (low <= high)
+			{
+				int mid = low + (high - low) / 2;
+				if (sortedArray[mid] > k)
+				{
+					result = mid;
+					high = mid - 1;
+				}
+				else // sortedArray[mid] <= valueToSearch
+				{
+					low = mid + 1;
+				}
+			}
+			return result;
+		}
 	}
 }
