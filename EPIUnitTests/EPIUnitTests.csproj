@@ -64,6 +64,7 @@
     <Compile Include="Arrays\CelebrityMatchingUnitTest.cs" />
     <Compile Include="Arrays\DutchFlagPartitionUnitTest.cs" />
     <Compile Include="Arrays\EnumeratePrimeUnitTest.cs" />
+    <Compile Include="Arrays\FurthestReachUnitTest.cs" />
     <Compile Include="Arrays\IncrementBigIntUnitTest.cs" />
     <Compile Include="Arrays\MatrixSpiralOrderUnitTest.cs" />
     <Compile Include="Arrays\MultiplyBigIntUnitTest.cs" />
@@ -72,6 +73,8 @@
     <Compile Include="Arrays\RookAttackUnitTest.cs" />
     <Compile Include="Arrays\Rotate2DArrayUnitTest.cs" />
     <Compile Include="Arrays\SudokuCheckerUnitTest.cs" />
+    <Compile Include="Arrays\MultiplyBigIntUnitTest.cs" />
+    <Compile Include="Arrays\RemoveArrayElementUnitTest.cs" />
     <Compile Include="DynamicProgramming\Number_WaysUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
@@ -79,6 +82,8 @@
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
     <Compile Include="LinkedLists\ReverseLinkedListUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\BinarySearchUnitTest.cs" />
+    <Compile Include="Searching\SearchEntryEqualToIndexUnitTest.cs" />
     <Compile Include="Strings\EliasGammaEncodingUnitTest.cs" />
     <Compile Include="Strings\RunLengthEncodingUnitTest.cs" />
     <Compile Include="Strings\SinusoidalUnitTest.cs" />
