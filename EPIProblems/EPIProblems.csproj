@@ -61,6 +61,7 @@
     <Compile Include="LinkedLists\SingleLinkedListNode.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedLists.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Searching\BinarySearchCyclicSortedArray.cs" />
     <Compile Include="Searching\BinarySearchEntryEqualToIndex.cs" />
     <Compile Include="Strings\EliasGammaEncoding.cs" />
     <Compile Include="Strings\LookAndSay.cs" />

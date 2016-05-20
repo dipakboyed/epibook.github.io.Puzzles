@@ -13,22 +13,22 @@
 		/// </summary>
 		public static int Binary_Search(int valueToSearch, int[] sortedArray)
 		{
-			int low = 0;
-			int high = sortedArray.Length - 1;
-			while (low <= high)
+			int left = 0;
+			int right = sortedArray.Length - 1;
+			while (left <= right)
 			{
-				int mid = low + (high - low)/2;
+				int mid = left + (right - left)/2;
 				if (sortedArray[mid] == valueToSearch)
 				{
 					return mid;
 				}
 				else if (sortedArray[mid] > valueToSearch)
 				{
-					high = mid - 1;
+					right = mid - 1;
 				}
 				else // sortedArray[mid] < valueToSearch
 				{
-					low = mid + 1;
+					left = mid + 1;
 				}
 			}
 			return -1; // not found
@@ -39,25 +39,25 @@
 		/// </summary>
 		public static int SearchFirstOccurenceOfK(int k, int[] sortedArray)
 		{
-			int low = 0;
-			int high = sortedArray.Length - 1;
+			int left = 0;
+			int right = sortedArray.Length - 1;
 			int result = -1;
-			while (low <= high)
+			while (left <= right)
 			{
-				int mid = low + (high - low) / 2;
+				int mid = left + (right - left) / 2;
 				if (sortedArray[mid] == k)
 				{
 					result = mid; // found an occurence of k
 					// continue checking to the left for earlier occurences
-					high = mid - 1;
+					right = mid - 1;
 				}
 				else if (sortedArray[mid] > k)
 				{
-					high = mid - 1;
+					right = mid - 1;
 				}
 				else // sortedArray[mid] < valueToSearch
 				{
-					low = mid + 1;
+					left = mid + 1;
 				}
 			}
 			return result;
@@ -70,20 +70,20 @@
 		/// </summary>
 		public static int SearchFirstValueLargerThanK(int k, int[] sortedArray)
 		{
-			int low = 0;
-			int high = sortedArray.Length - 1;
+			int left = 0;
+			int right = sortedArray.Length - 1;
 			int result = -1;
-			while (low <= high)
+			while (left <= right)
 			{
-				int mid = low + (high - low) / 2;
+				int mid = left + (right - left) / 2;
 				if (sortedArray[mid] > k)
 				{
 					result = mid;
-					high = mid - 1;
+					right = mid - 1;
 				}
 				else // sortedArray[mid] <= valueToSearch
 				{
-					low = mid + 1;
+					left = mid + 1;
 				}
 			}
 			return result;
