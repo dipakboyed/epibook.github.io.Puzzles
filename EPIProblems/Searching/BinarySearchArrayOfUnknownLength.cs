@@ -3,7 +3,7 @@
 namespace EPI.Searching
 {
 	/// <summary>
-	/// DEesign an algorithm that takes a sorted array whose length is unknown and a key and returns an index of an array
+	/// Design an algorithm that takes a sorted array whose length is unknown and a key and returns an index of an array
 	/// element which matches the key. 
 	/// Assume that an out of bounds access throws an exception
 	/// </summary>

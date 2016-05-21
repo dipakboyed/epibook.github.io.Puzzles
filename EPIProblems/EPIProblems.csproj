@@ -64,6 +64,7 @@
     <Compile Include="Searching\BinarySearchArrayOfUnknownLength.cs" />
     <Compile Include="Searching\BinarySearchCyclicSortedArray.cs" />
     <Compile Include="Searching\BinarySearchEntryEqualToIndex.cs" />
+    <Compile Include="Searching\SquareRoot.cs" />
     <Compile Include="Strings\EliasGammaEncoding.cs" />
     <Compile Include="Strings\LookAndSay.cs" />
     <Compile Include="Strings\Palindrome.cs" />
