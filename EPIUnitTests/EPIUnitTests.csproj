@@ -87,6 +87,7 @@
     <Compile Include="Searching\SearchEntryEqualToIndexUnitTest.cs" />
     <Compile Include="Searching\SearchSmallestInCyclicSortedArrayUnitTest.cs" />
     <Compile Include="Searching\SquareRootUnitTest.cs" />
+    <Compile Include="Searching\Search2DSortedArrayUnitTest.cs" />
     <Compile Include="Strings\EliasGammaEncodingUnitTest.cs" />
     <Compile Include="Strings\RunLengthEncodingUnitTest.cs" />
     <Compile Include="Strings\SinusoidalUnitTest.cs" />
