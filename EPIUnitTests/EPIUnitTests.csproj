@@ -84,6 +84,7 @@
     <Compile Include="Searching\BinarySearchArrayOfUnknownLengthUnitTest.cs" />
     <Compile Include="Searching\BinarySearchInTwoSortedArrayUnitTest.cs" />
     <Compile Include="Searching\BinarySearchUnitTest.cs" />
+    <Compile Include="Searching\MinMaxUnitTest.cs" />
     <Compile Include="Searching\SearchEntryEqualToIndexUnitTest.cs" />
     <Compile Include="Searching\SearchSmallestInCyclicSortedArrayUnitTest.cs" />
     <Compile Include="Searching\SquareRootUnitTest.cs" />
