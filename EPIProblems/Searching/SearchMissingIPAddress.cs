@@ -5,6 +5,11 @@ using System.Linq;
 
 namespace EPI.Searching
 {
+	/// <summary>
+	/// You're given a file stream containing billions of IP addresses represented as 32-bit uints.
+	/// Find the one missing IP address value from the file.
+	/// Constraint is to do this with only a few megabytes of RAM at your disposal
+	/// </summary>
 	public static class SearchMissingIPAddress
 	{
 		/// <summary>
