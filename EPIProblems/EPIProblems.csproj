@@ -68,6 +68,7 @@
     <Compile Include="Searching\MinMax.cs" />
     <Compile Include="Searching\Search2DSortedArray.cs" />
     <Compile Include="Searching\SearchKthLargest.cs" />
+    <Compile Include="Searching\SearchMissingIPAddress.cs" />
     <Compile Include="Searching\SquareRoot.cs" />
     <Compile Include="Strings\EliasGammaEncoding.cs" />
     <Compile Include="Strings\LookAndSay.cs" />

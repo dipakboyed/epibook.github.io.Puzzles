@@ -20,9 +20,6 @@ namespace EPI.Searching
 		/// if there are less than k-1 elements >p, then k-th largest cannot be in the range more than equal tp p. discard that partition.
 		/// O(n) time and O(1) space. Let's use this algorithm.
 		/// </summary>
-		/// <param name="array"></param>
-		/// <param name="k"></param>
-		/// <returns></returns>
 		public static int Search(int[] array, int k)
 		{
 			int left = 0;
