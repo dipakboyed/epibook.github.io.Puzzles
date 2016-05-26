@@ -91,6 +91,7 @@
     <Compile Include="Searching\SquareRootUnitTest.cs" />
     <Compile Include="Searching\Search2DSortedArrayUnitTest.cs" />
     <Compile Include="StacksAndQueues\StackBasedQueueUnitTest.cs" />
+    <Compile Include="StacksAndQueues\StackWithMaxUnitTest.cs" />
     <Compile Include="Strings\EliasGammaEncodingUnitTest.cs" />
     <Compile Include="Strings\RunLengthEncodingUnitTest.cs" />
     <Compile Include="Strings\SinusoidalUnitTest.cs" />
