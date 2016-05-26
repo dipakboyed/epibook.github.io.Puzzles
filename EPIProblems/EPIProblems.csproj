@@ -70,6 +70,7 @@
     <Compile Include="Searching\SearchKthLargest.cs" />
     <Compile Include="Searching\SearchMissingIPAddress.cs" />
     <Compile Include="Searching\SquareRoot.cs" />
+    <Compile Include="StacksAndQueues\StackBasedQueue.cs" />
     <Compile Include="Strings\EliasGammaEncoding.cs" />
     <Compile Include="Strings\LookAndSay.cs" />
     <Compile Include="Strings\Palindrome.cs" />
