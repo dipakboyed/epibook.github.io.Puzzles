@@ -85,5 +85,13 @@ namespace EPI.StacksAndQueues
 		{
 			return maxElementInStackWithCount.Peek().Entry;
 		}
+
+		public int Count
+		{
+			get
+			{
+				return stack.Count;
+			}
+		}
 	}
 }
