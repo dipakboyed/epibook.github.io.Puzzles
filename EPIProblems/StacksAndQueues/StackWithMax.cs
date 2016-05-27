@@ -18,6 +18,7 @@ namespace EPI.StacksAndQueues
 				Entry = entry;
 				Count = count;
 			}
+
 		};
 
 		private Stack<T> stack;
