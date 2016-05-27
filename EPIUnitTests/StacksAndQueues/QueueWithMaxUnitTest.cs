@@ -16,6 +16,7 @@ namespace EPI.UnitTests.StacksAndQueues
 			queue.Enqueue(3);
 			queue.Enqueue(5);
 			queue.Max().Should().Be(5);
+			queue.Peek().Should().Be(1);
 			queue.Enqueue(2);
 			queue.Max().Should().Be(5);
 			queue.Dequeue();

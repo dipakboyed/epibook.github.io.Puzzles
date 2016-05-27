@@ -38,7 +38,16 @@ namespace EPI.StacksAndQueues
 
 		public T Peek()
 		{
-			return stack1.Peek();
+			if (stack2.Count == 0)
+			{
+				// Transfer all element from first stack to the second
+				// but in reverse order
+				while (stack1.Count != 0)
+				{
+					stack2.Push(stack1.Pop());
+				}
+			}
+			return stack2.Peek();
 		}
 
 		public void Clear()
