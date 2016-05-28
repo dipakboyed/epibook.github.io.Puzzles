@@ -79,6 +79,7 @@
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblemUnitTest.cs" />
     <Compile Include="HashTables\PartitionAnagramsUnitTest.cs" />
+    <Compile Include="HashTables\TestForPalindromeUnitTest.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
     <Compile Include="LinkedLists\ReverseLinkedListUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
