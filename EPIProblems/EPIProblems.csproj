@@ -72,6 +72,7 @@
     <Compile Include="Searching\SquareRoot.cs" />
     <Compile Include="StacksAndQueues\MaxInSlidingWindow.cs" />
     <Compile Include="StacksAndQueues\QueueWithMax.cs" />
+    <Compile Include="StacksAndQueues\ShortestStraightLine.cs" />
     <Compile Include="StacksAndQueues\StackBasedQueue.cs" />
     <Compile Include="StacksAndQueues\StackWithMax.cs" />
     <Compile Include="Strings\EliasGammaEncoding.cs" />
