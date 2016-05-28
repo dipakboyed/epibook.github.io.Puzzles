@@ -58,10 +58,11 @@ namespace EPI.StacksAndQueues
 				throw new InvalidOperationException("Queue is empty");
 			}
 			// return the item at head and increment the head
-			int currentHead = head;
+			T currentHeadItem = array[head];
+			array[head] = default(T);
 			head = (head + 1) % array.Length;
 			--size;
-			return array[currentHead];
+			return currentHeadItem;
 		}
 	}
 }
