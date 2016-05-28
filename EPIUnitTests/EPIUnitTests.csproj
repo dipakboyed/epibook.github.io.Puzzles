@@ -80,6 +80,7 @@
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblemUnitTest.cs" />
     <Compile Include="HashTables\AnonymousLetterConstructionUnitTest.cs" />
     <Compile Include="HashTables\ISBNCacheUnitTest.cs" />
+    <Compile Include="HashTables\LCAForCloseAncestorsUnitTest.cs" />
     <Compile Include="HashTables\PartitionAnagramsUnitTest.cs" />
     <Compile Include="HashTables\TestForPalindromeUnitTest.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
