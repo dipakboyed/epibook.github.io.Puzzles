@@ -55,6 +55,7 @@
     <Compile Include="Graphs\PaintBooleanMatrix.cs" />
     <Compile Include="Graphs\SearchAMaze.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblem.cs" />
+    <Compile Include="HashTables\PartitionAnagrams.cs" />
     <Compile Include="LinkedLists\LinkedListIsCyclic.cs" />
     <Compile Include="LinkedLists\ReverseLinkedList.cs" />
     <Compile Include="LinkedLists\SingleLinkedList.cs" />
