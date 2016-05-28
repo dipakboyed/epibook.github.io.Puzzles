@@ -78,6 +78,7 @@
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblemUnitTest.cs" />
+    <Compile Include="HashTables\AnonymousLetterConstructionUnitTest.cs" />
     <Compile Include="HashTables\PartitionAnagramsUnitTest.cs" />
     <Compile Include="HashTables\TestForPalindromeUnitTest.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
