@@ -25,6 +25,8 @@ namespace EPI.HashTables
 		{
 			lruCache.Remove(cacheNode);
 			lruCache.AddFirst(itemISBN);
+			var tableItem = isbnTable[itemISBN];
+			isbnTable[itemISBN] = new Tuple<int, LinkedListNode<int>>(tableItem.Item1, lruCache.First);
 		}
 
 		public int Lookup(int isbn)
