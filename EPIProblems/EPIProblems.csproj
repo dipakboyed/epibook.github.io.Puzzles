@@ -70,6 +70,7 @@
     <Compile Include="Searching\SearchKthLargest.cs" />
     <Compile Include="Searching\SearchMissingIPAddress.cs" />
     <Compile Include="Searching\SquareRoot.cs" />
+    <Compile Include="StacksAndQueues\CircularQueue.cs" />
     <Compile Include="StacksAndQueues\MaxInSlidingWindow.cs" />
     <Compile Include="StacksAndQueues\QueueWithMax.cs" />
     <Compile Include="StacksAndQueues\ShortestStraightLine.cs" />
