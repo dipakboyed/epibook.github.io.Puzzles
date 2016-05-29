@@ -16,7 +16,7 @@ namespace EPI.HashTables
 		{
 			// store the latest occurence of each entry in a dictionary
 			Dictionary<char, int> latestEntryOccurence = new Dictionary<char, int>();
-			Tuple<int, int> longestSubarraySoFar = new Tuple<int, int>(Int32.MinValue, 0);
+			Tuple<int, int> longestSubarraySoFar = new Tuple<int, int>(0, -1);
 			int start = 0;
 			for (int i = 0; i < array.Length; i++)
 			{
@@ -26,8 +26,7 @@ namespace EPI.HashTables
 					latestEntryOccurence.Add(array[i], i);
 
 					// check if we have a larger result
-					if ((longestSubarraySoFar.Item2 - longestSubarraySoFar.Item1) <
-						(i - start))
+					if ((longestSubarraySoFar.Item2 - longestSubarraySoFar.Item1) < (i - start))
 					{
 						longestSubarraySoFar = new Tuple<int, int>(start, i);
 					}
