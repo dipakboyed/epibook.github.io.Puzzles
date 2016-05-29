@@ -18,52 +18,40 @@ namespace EPI.HashTables
 	{
 		public static Tuple<int, int> FindSmallestSequentialSubarrayOfKeywords(string[] paragraph, string[] keywords)
 		{
+			Tuple<int, int> smallestSubarraySoFar = new Tuple<int, int>(0, Int32.MaxValue);
 			//First: record the order of the keyword sequence
-			Dictionary<string, int> keywordsOrder = new Dictionary<string, int>();
+			Dictionary<string, int> keyIndex = new Dictionary<string, int>();
 			for(int i = 0; i < keywords.Length; i++)
 			{
-				keywordsOrder.Add(keywords[i], i);
+				keyIndex.Add(keywords[i], i);
 			}
 
-			// store the latest occurence of each keyword
-			// use the keyword order as the index in this array
-			int[] latestKeywordOccurence = Enumerable.Repeat(-1, keywords.Length).ToArray();
+			// store the latest occurence of each keyword (initialize to Max)
+			// use the key index as the index in this array
+			int[] latestKeyIndex = Enumerable.Repeat(Int32.MaxValue, keywords.Length).ToArray();
 
-			// For each keyword (indexed by the keyword order), store the length of the shortest sequential subarray
-			// upto that keyword that ends at the keyword's latest occurence
-			// e.g. keywords: {a, b} have order {0,1}
-			// a[0] contains shortest subarray matching {a} at latest occurence of 'a'
-			// a[1] contains shortest subarray matching {a, b} at latest occurence of 'b'
-			// intiailize values with int max
-			int[] shortestSubarrayLength = Enumerable.Repeat(Int32.MaxValue, keywords.Length).ToArray();
-
-			Tuple<int, int> smallestSubarraySoFar = new Tuple<int, int>(0, Int32.MaxValue);
 			for (int i = 0; i < paragraph.Length; i++)
 			{
-				if (keywordsOrder.ContainsKey(paragraph[i]))
+				if (keyIndex.ContainsKey(paragraph[i]))
 				{
-					// we found a keyword
-					int keyIndex = keywordsOrder[paragraph[i]];
-					if (keyIndex == 0) // first keyword
+					// at a keyword
+					int keyNumber = keyIndex[paragraph[i]];
+					if (keyNumber == 0) //first key
 					{
-						shortestSubarrayLength[keyIndex] = 1;
+						latestKeyIndex[keyNumber] = i;
 					}
-					//keyword but not the first one
-					else if (shortestSubarrayLength[keyIndex - 1] != Int32.MaxValue)
+					else if (latestKeyIndex[keyNumber -1] <  Int32.MaxValue) //for all other key, set only if previous keys have been found
 					{
-						// we have found the all previous keywords 
-						int distanceFromPreviousKeyword = i - latestKeywordOccurence[keyIndex - 1];
-						shortestSubarrayLength[keyIndex] = shortestSubarrayLength[keyIndex - 1] + distanceFromPreviousKeyword;
+						latestKeyIndex[keyNumber] = i;
 					}
 
-					latestKeywordOccurence[keyIndex] = i;
-
-					// if at the last keyword in the order, check for the
-					// smallest subarray
-					if (keyIndex == keywords.Length - 1 && 
-						(smallestSubarraySoFar.Item2 - smallestSubarraySoFar.Item1) > shortestSubarrayLength[keyIndex] - 1)
+					if (keyNumber == keyIndex.Count -1  &&			//at the last keyword
+						latestKeyIndex[keyNumber] < Int32.MaxValue) // and have found all keys
 					{
-						smallestSubarraySoFar = new Tuple<int, int>(i - shortestSubarrayLength[keyIndex] + 1 , i);
+						if (smallestSubarraySoFar.Item2 - smallestSubarraySoFar.Item1 >  (i - latestKeyIndex[0]))
+						{
+							smallestSubarraySoFar = new Tuple<int, int>(latestKeyIndex[0], i);
+						}
 					}
 				}
 			}

@@ -25,7 +25,6 @@ namespace EPI.HashTables
 				if (keywords.Contains(paragraph[i]))
 				{
 					// found a keyword
-
 					if (!keywordsToCount.ContainsKey(paragraph[i]))
 					{
 						keywordsToCount.Add(paragraph[i], 1);
