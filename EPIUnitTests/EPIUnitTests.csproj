@@ -83,6 +83,7 @@
     <Compile Include="HashTables\LCAForCloseAncestorsUnitTest.cs" />
     <Compile Include="HashTables\NearestRepeatedWordsUnitTest.cs" />
     <Compile Include="HashTables\PartitionAnagramsUnitTest.cs" />
+    <Compile Include="HashTables\SmallestSequentialSubarrayCoveringSetUnitTest.cs" />
     <Compile Include="HashTables\SmallestSubarrayCoveringSetUnitTest.cs" />
     <Compile Include="HashTables\TestForPalindromeUnitTest.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
