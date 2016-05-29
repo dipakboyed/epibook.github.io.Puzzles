@@ -18,59 +18,46 @@ namespace EPI.HashTables
 		{
 			Dictionary<string, int> keywordsToCount = new Dictionary<string, int>();
 			Tuple<int, int> smallestSubarraySoFar = new Tuple<int, int>(0, Int32.MaxValue);
-			int left = 0, right = 0;
-			// iterate till the end of the paragraph
-			while (right < paragraph.Length)
+			int start = 0;
+
+			for (int i = 0; i < paragraph.Length; i++)
 			{
-				// move from left forward until we either find all keywords or reach the end of the paragraph
-				while (keywordsToCount.Count < keywords.Count && right < paragraph.Length)
+				if (keywords.Contains(paragraph[i]))
 				{
-					if (keywords.Contains(paragraph[right]))
+					// found a keyword
+
+					if (!keywordsToCount.ContainsKey(paragraph[i]))
 					{
-						// we are at a keyword, add to our dictionary
-						if (keywordsToCount.ContainsKey(paragraph[right]))
-						{
-							keywordsToCount[paragraph[right]]++;
-						}
-						else
-						{
-							keywordsToCount.Add(paragraph[right], 1);
-						}
+						keywordsToCount.Add(paragraph[i], 1);
 					}
-					++right;
-				}
-
-				// If found all keywords, check if this is the smallest subarray
-				if (keywordsToCount.Count == keywords.Count &&
-					((smallestSubarraySoFar.Item2 - smallestSubarraySoFar.Item1) > (right - left - 1)))
-				{
-					smallestSubarraySoFar = new Tuple<int, int>(left, right - 1);
-				}
-
-				// Now increment left until we no longer have all keywords or reach the current right end
-				while (left < right && keywordsToCount.Count == keywords.Count)
-				{
-
-					if (keywords.Contains(paragraph[left]))
+					else
 					{
-						// we are at a keyword, decrement from our dictionary
-						--keywordsToCount[paragraph[left]];
-						if (keywordsToCount[paragraph[left]] == 0)
-						{
-							// delete the current word from dictionary since we are at the latest instance
-							keywordsToCount.Remove(paragraph[left]);
+						keywordsToCount[paragraph[i]]++;
+					}
 
-							// check if this is the smallest subarray
-							if ((smallestSubarraySoFar.Item2 - smallestSubarraySoFar.Item1) > (right - left - 1))
+					if (keywordsToCount.Count == keywords.Count)
+					{
+						// found all keywords
+						// now increment start index until we still have all keywords
+						while (start < i && keywordsToCount.Count == keywords.Count)
+						{
+							if (keywordsToCount.ContainsKey(paragraph[start]))
 							{
-								smallestSubarraySoFar = new Tuple<int, int>(left, right - 1);
+								--keywordsToCount[paragraph[start]];
+								if (keywordsToCount[paragraph[start]] == 0)
+								{
+									keywordsToCount.Remove(paragraph[start]);
+									if ((smallestSubarraySoFar.Item2 - smallestSubarraySoFar.Item1) > (i - start))
+									{
+										smallestSubarraySoFar = new Tuple<int, int>(start, i);
+									}
+								}
 							}
+							start++;
 						}
 					}
-					++left;
 				}
 			}
-
 			return smallestSubarraySoFar;
 		}
 	}
