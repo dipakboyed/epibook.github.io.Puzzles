@@ -61,6 +61,7 @@
     <Compile Include="HashTables\ISBNCache.cs" />
     <Compile Include="HashTables\LCAForCloseAncestors.cs" />
     <Compile Include="HashTables\LineWithMaximumPoints.cs" />
+    <Compile Include="HashTables\NearestRepeatedWords.cs" />
     <Compile Include="HashTables\PartitionAnagrams.cs" />
     <Compile Include="HashTables\TestForPalindrome.cs" />
     <Compile Include="LinkedLists\LinkedListIsCyclic.cs" />
