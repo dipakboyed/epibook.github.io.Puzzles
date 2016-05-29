@@ -63,6 +63,7 @@
     <Compile Include="HashTables\LineWithMaximumPoints.cs" />
     <Compile Include="HashTables\NearestRepeatedWords.cs" />
     <Compile Include="HashTables\PartitionAnagrams.cs" />
+    <Compile Include="HashTables\SmallestSubarrayCoveringSet.cs" />
     <Compile Include="HashTables\TestForPalindrome.cs" />
     <Compile Include="LinkedLists\LinkedListIsCyclic.cs" />
     <Compile Include="LinkedLists\ReverseLinkedList.cs" />
