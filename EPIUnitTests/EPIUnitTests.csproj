@@ -81,6 +81,7 @@
     <Compile Include="HashTables\AnonymousLetterConstructionUnitTest.cs" />
     <Compile Include="HashTables\ISBNCacheUnitTest.cs" />
     <Compile Include="HashTables\LCAForCloseAncestorsUnitTest.cs" />
+    <Compile Include="HashTables\LongestSubarrayWithDistinctEntriesUnitTest.cs" />
     <Compile Include="HashTables\NearestRepeatedWordsUnitTest.cs" />
     <Compile Include="HashTables\PartitionAnagramsUnitTest.cs" />
     <Compile Include="HashTables\SmallestSequentialSubarrayCoveringSetUnitTest.cs" />
