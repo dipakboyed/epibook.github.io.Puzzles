@@ -72,6 +72,7 @@
     <Compile Include="Arrays\Pascal_sTriangleUnitTest.cs" />
     <Compile Include="Arrays\RookAttackUnitTest.cs" />
     <Compile Include="Arrays\Rotate2DArrayUnitTest.cs" />
+    <Compile Include="Arrays\SubstringMatchUnitTest.cs" />
     <Compile Include="Arrays\SudokuCheckerUnitTest.cs" />
     <Compile Include="Arrays\RemoveArrayElementUnitTest.cs" />
     <Compile Include="DynamicProgramming\Number_WaysUnitTest.cs" />

@@ -49,6 +49,7 @@
     <Compile Include="Arrays\RemoveArrayElement.cs" />
     <Compile Include="Arrays\RookAttack.cs" />
     <Compile Include="Arrays\Rotate2DArray.cs" />
+    <Compile Include="Arrays\SubstringMatch.cs" />
     <Compile Include="Arrays\SudokuChecker.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblem.cs" />
     <Compile Include="HashTables\AnonymousLetterConstruction.cs" />
     <Compile Include="HashTables\FindAllSubstrings.cs" />
+    <Compile Include="HashTables\HighestAffinityPair.cs" />
     <Compile Include="HashTables\ISBNCache.cs" />
     <Compile Include="HashTables\LCAForCloseAncestors.cs" />
     <Compile Include="HashTables\LineWithMaximumPoints.cs" />
