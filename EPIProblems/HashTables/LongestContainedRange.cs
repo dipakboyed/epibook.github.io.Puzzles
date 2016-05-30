@@ -34,7 +34,7 @@ namespace EPI.HashTables
 				int num = numbers.First();
 				numbers.Remove(num);
 
-				// look for lower and upper bound of the range containing current number in the hash
+				// look for the exclusive lower and upper bound of the range containing current number in the hash
 				int lower = num - 1;
 				while (numbers.Contains(lower))
 				{

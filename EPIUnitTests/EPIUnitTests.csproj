@@ -79,6 +79,7 @@
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblemUnitTest.cs" />
     <Compile Include="HashTables\AnonymousLetterConstructionUnitTest.cs" />
+    <Compile Include="HashTables\FindAllSubstringsUnitTest.cs" />
     <Compile Include="HashTables\ISBNCacheUnitTest.cs" />
     <Compile Include="HashTables\LCAForCloseAncestorsUnitTest.cs" />
     <Compile Include="HashTables\LongestContainedRangeUnitTest.cs" />
