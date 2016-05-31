@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.HashTables
 {
@@ -85,6 +82,8 @@ namespace EPI.HashTables
 		// currentHashCode ^ (current value at a2 //remove wP) ^ (blank at a2 //add) ^ (current at a4 //remove current piece) ^ (wP at a4 //add)
 		public static int GetNextMoveHashCode(SquareState[] currentBoard, int currentHashCode, Dictionary<int, SquareState> squaresChangedInNextMove)
 		{
+			InitializeState();
+
 			int result = currentHashCode;
 			// squaresChangedInNextMove : the keys are squares which will change, values are the code representing the new state of those squares
 			// for now I assume the keys come in pairs of 2.
