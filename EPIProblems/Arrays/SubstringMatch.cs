@@ -21,6 +21,20 @@
 			const int multiplier = 26;
 			const int slotSize = 1000;
 			//compute the hash for searchQuery and text substring starting at 0.
+			// use modulo to ensure hash value is within range.
+			// How rolling hash works?
+			// Forget about the modulo for a second.
+			// example: the hash for "cat" is computed at each step like:
+			// 'c': hash = 'c'
+			// 'a': hash = 'c' * 26 + 'a'
+			// 't': hash = 'c' * 26 * 26 + 'a' * 26 + 't'
+			// cat_hash = ((c)*26 + a)*26 + t
+			// Now let's say we want to use this rolling hash to compute hash for 'ate'
+			// where prefix 'c' is removed and suffix 'e' is added.
+			// subtract prefix: A = cat_hash - c*26*26 = a*26 + t
+			// add suffix: A * 26 + 'e' = a*26*26+ t*26 + e
+			// ate = ((a)*26 + t)*26 + e
+			// Now remember to use modulo in rolling hash steps (subtract prefix, append suffix) above
 			int searchHash = 0, textHash = 0;
 			int order = 0;
 			for (int i = 0; i < searchQuery.Length; i++)
