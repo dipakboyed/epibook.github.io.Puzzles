@@ -68,7 +68,7 @@ namespace EPI.HashTables
 		public override int GetHashCode()
 		{
 			int hash = 0;
-			for(int i =0; i < board.Length; i++)
+			for(int i = 0; i < board.Length; i++)
 			{
 				hash ^= chessBoardStates[i, (int)board[i]];
 			}

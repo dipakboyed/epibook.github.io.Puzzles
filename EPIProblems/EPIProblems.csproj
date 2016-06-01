@@ -59,6 +59,7 @@
     <Compile Include="Graphs\SearchAMaze.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblem.cs" />
     <Compile Include="HashTables\AnonymousLetterConstruction.cs" />
+    <Compile Include="HashTables\PairUsersByAttribute.cs" />
     <Compile Include="HashTables\ZobristHashingForChess.cs" />
     <Compile Include="HashTables\Collatz.cs" />
     <Compile Include="HashTables\FindAllSubstrings.cs" />

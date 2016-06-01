@@ -87,6 +87,7 @@
     <Compile Include="HashTables\LongestContainedRangeUnitTest.cs" />
     <Compile Include="HashTables\LongestSubarrayWithDistinctEntriesUnitTest.cs" />
     <Compile Include="HashTables\NearestRepeatedWordsUnitTest.cs" />
+    <Compile Include="HashTables\PairUsersByAttributeUnitTest.cs" />
     <Compile Include="HashTables\PartitionAnagramsUnitTest.cs" />
     <Compile Include="HashTables\SmallestSequentialSubarrayCoveringSetUnitTest.cs" />
     <Compile Include="HashTables\SmallestSubarrayCoveringSetUnitTest.cs" />
