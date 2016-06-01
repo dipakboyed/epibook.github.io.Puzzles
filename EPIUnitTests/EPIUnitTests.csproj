@@ -84,6 +84,7 @@
     <Compile Include="HashTables\FindAllSubstringsUnitTest.cs" />
     <Compile Include="HashTables\ISBNCacheUnitTest.cs" />
     <Compile Include="HashTables\LCAForCloseAncestorsUnitTest.cs" />
+    <Compile Include="HashTables\LineWithMaximumPointsUnitTest.cs" />
     <Compile Include="HashTables\LongestContainedRangeUnitTest.cs" />
     <Compile Include="HashTables\LongestSubarrayWithDistinctEntriesUnitTest.cs" />
     <Compile Include="HashTables\NearestRepeatedWordsUnitTest.cs" />
