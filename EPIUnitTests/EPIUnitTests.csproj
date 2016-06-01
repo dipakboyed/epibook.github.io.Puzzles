@@ -96,6 +96,7 @@
     <Compile Include="HashTables\ZobristHashingForChessUnitTest.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
     <Compile Include="LinkedLists\ReverseLinkedListUnitTest.cs" />
+    <Compile Include="PrimitiveTypes\GCDUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Searching\BinarySearchArrayOfUnknownLengthUnitTest.cs" />
     <Compile Include="Searching\BinarySearchInTwoSortedArrayUnitTest.cs" />

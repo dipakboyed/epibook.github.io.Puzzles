@@ -80,6 +80,7 @@
     <Compile Include="LinkedLists\SingleLinkedList.cs" />
     <Compile Include="LinkedLists\SingleLinkedListNode.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedLists.cs" />
+    <Compile Include="PrimitiveTypes\GCD.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Searching\BinarySearchArrayOfUnknownLength.cs" />
     <Compile Include="Searching\BinarySearchCyclicSortedArray.cs" />
