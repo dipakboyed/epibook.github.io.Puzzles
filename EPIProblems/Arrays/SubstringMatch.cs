@@ -18,8 +18,8 @@
 				return -1;
 			}
 
-			const int multiplier = 26;
-			const int slotSize = 1000;
+			const int multiplier = 26; // ususally a good idea to pick a number representing the range of possible values
+			const int slotSize = 997; //prime number
 			//compute the hash for searchQuery and text substring starting at 0.
 			// use modulo to ensure hash value is within range.
 			// How rolling hash works?
