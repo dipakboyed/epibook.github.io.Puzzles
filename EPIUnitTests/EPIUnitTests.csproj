@@ -114,6 +114,7 @@
     <Compile Include="Sorting\IntersectSortedArraysUnitTest.cs" />
     <Compile Include="Sorting\QuickSortUnitTest.cs" />
     <Compile Include="Sorting\RemoveDuplicatesUnitTest.cs" />
+    <Compile Include="Sorting\RenderCalendarUnitTest.cs" />
     <Compile Include="StacksAndQueues\CircularQueueUnitTest.cs" />
     <Compile Include="StacksAndQueues\MaxSlidingWindowUnitTest.cs" />
     <Compile Include="StacksAndQueues\QueueWithMaxUnitTest.cs" />
