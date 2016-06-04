@@ -109,6 +109,7 @@
     <Compile Include="Searching\SquareRootUnitTest.cs" />
     <Compile Include="Searching\Search2DSortedArrayUnitTest.cs" />
     <Compile Include="Sorting\BubbleSortUnitTest.cs" />
+    <Compile Include="Sorting\InPlaceMergeSortUnitTest.cs" />
     <Compile Include="Sorting\IntersectSortedArraysUnitTest.cs" />
     <Compile Include="StacksAndQueues\CircularQueueUnitTest.cs" />
     <Compile Include="StacksAndQueues\MaxSlidingWindowUnitTest.cs" />
