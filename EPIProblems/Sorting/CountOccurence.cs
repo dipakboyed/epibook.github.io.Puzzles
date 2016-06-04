@@ -27,6 +27,7 @@
 					currentCharCount = 1;
 				}
 			}
+			result += "(" + array[array.Length - 1] + "," + currentCharCount + ")";
 			return result;
 		}
 	}
