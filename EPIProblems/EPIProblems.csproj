@@ -93,6 +93,7 @@
     <Compile Include="Searching\SquareRoot.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\CountOccurence.cs" />
+    <Compile Include="Sorting\DisjointIntervals.cs" />
     <Compile Include="Sorting\InPlaceMergeSort.cs" />
     <Compile Include="Sorting\IntersectSortedArrays.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
