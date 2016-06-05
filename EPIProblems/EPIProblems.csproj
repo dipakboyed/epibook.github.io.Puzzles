@@ -92,6 +92,7 @@
     <Compile Include="Searching\SearchMissingIPAddress.cs" />
     <Compile Include="Searching\SquareRoot.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\CountOccurence.cs" />
     <Compile Include="Sorting\DisjointIntervals.cs" />
     <Compile Include="Sorting\InPlaceMergeSort.cs" />
