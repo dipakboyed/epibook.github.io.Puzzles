@@ -118,6 +118,7 @@
     <Compile Include="Sorting\RemoveDuplicatesUnitTest.cs" />
     <Compile Include="Sorting\RenderCalendarUnitTest.cs" />
     <Compile Include="Sorting\TaskAssignmentUnitTest.cs" />
+    <Compile Include="Sorting\TeamPhotoDayUnitTest.cs" />
     <Compile Include="Sorting\UnionOfIntervalsUnitTest.cs" />
     <Compile Include="StacksAndQueues\CircularQueueUnitTest.cs" />
     <Compile Include="StacksAndQueues\MaxSlidingWindowUnitTest.cs" />
