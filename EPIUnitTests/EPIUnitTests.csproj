@@ -117,6 +117,7 @@
     <Compile Include="Sorting\QuickSortUnitTest.cs" />
     <Compile Include="Sorting\RemoveDuplicatesUnitTest.cs" />
     <Compile Include="Sorting\RenderCalendarUnitTest.cs" />
+    <Compile Include="Sorting\StableSortLinkedListUnitTest.cs" />
     <Compile Include="Sorting\TaskAssignmentUnitTest.cs" />
     <Compile Include="Sorting\TeamPhotoDayUnitTest.cs" />
     <Compile Include="Sorting\UnionOfIntervalsUnitTest.cs" />
