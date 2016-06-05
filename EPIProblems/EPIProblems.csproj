@@ -99,6 +99,7 @@
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="Sorting\RemoveDuplicates.cs" />
     <Compile Include="Sorting\RenderCalendar.cs" />
+    <Compile Include="Sorting\TaskAssignment.cs" />
     <Compile Include="Sorting\UnionOfIntervals.cs" />
     <Compile Include="StacksAndQueues\CircularQueue.cs" />
     <Compile Include="StacksAndQueues\MaxInSlidingWindow.cs" />
