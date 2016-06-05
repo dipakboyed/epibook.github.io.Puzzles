@@ -20,7 +20,7 @@
 
 			// apply this same rule iteratively by comparing the next sorted
 			// element against the sum of all elements so far (Si + 1)
-			// If next sorted element An is > Sum(A[0..n-1]), then we found our answer
+			// If next sorted element An is > Sum(A[0..n-1]) + 1, then we found our answer
 			int sumOfChange = 0;
 			foreach (int item in array)
 			{

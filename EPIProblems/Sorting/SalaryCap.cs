@@ -21,8 +21,10 @@
 
 				if (sumSoFar + remainingSumCappedAtCurrentSalary >= budget)
 				{
-					// this the smallest salary where we are exceeding the cap
-					// cap is the average of the budget - sumSoFar
+					// this the smallest salary where we are exceeding the budget
+					// cap must be <= the current salary.
+					// More so cap is the average of the budget - sumSoFar for the remaining people
+					// cap = (budget - sumSoFar)/(number of remaining people)
 					return (budget - sumSoFar) / (salaries.Length - i);
 				}
 				sumSoFar += salaries[i];
