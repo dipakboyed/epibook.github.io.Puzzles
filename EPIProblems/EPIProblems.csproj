@@ -75,6 +75,8 @@
     <Compile Include="HashTables\SmallestSubarrayCoveringSet.cs" />
     <Compile Include="HashTables\TestForPalindrome.cs" />
     <Compile Include="HashTables\TrieShortestUniquePrefix.cs" />
+    <Compile Include="Heaps\MaxHeap.cs" />
+    <Compile Include="Heaps\MinHeap.cs" />
     <Compile Include="LinkedLists\LinkedListIsCyclic.cs" />
     <Compile Include="LinkedLists\ReverseLinkedList.cs" />
     <Compile Include="LinkedLists\SingleLinkedList.cs" />
