@@ -61,30 +61,30 @@ namespace EPI.Heaps
 		{
 			int left = (2 * current) + 1;
 			int right = (2 * current) + 2;
-			int smallest = current; //store the smallest item b;ween the current and it's child
+			int largest = current; //store the largest item b;ween the current and it's child
 
 			if (left < size)
 			{
-				int leftComparison = array[left].CompareTo(array[smallest]);
+				int leftComparison = array[left].CompareTo(array[largest]);
 				if (leftComparison > 0)
 				{
-					smallest = left;
+					largest = left;
 				}
 			}
 
 			if (right < size)
 			{
-				int rightComparison = array[right].CompareTo(array[smallest]);
+				int rightComparison = array[right].CompareTo(array[largest]);
 				if (rightComparison > 0)
 				{
-					smallest = right;
+					largest = right;
 				}
 			}
 
-			if (smallest != current)
+			if (largest != current)
 			{
-				Swap(array, smallest, current);
-				HeapifyDown(smallest);
+				Swap(array, largest, current);
+				HeapifyDown(largest);
 			}
 		}
 

@@ -89,6 +89,7 @@
     <Compile Include="Searching\BinarySearchEntryEqualToIndex.cs" />
     <Compile Include="Searching\BinarySearchInTwoSortedArrays.cs" />
     <Compile Include="Searching\MinMax.cs" />
+    <Compile Include="Sorting\HeapSort.cs" />
     <Compile Include="Sorting\IntervalCoveringProblem.cs" />
     <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Sorting\SalaryCap.cs" />

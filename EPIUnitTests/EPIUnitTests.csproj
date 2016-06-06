@@ -117,6 +117,7 @@
     <Compile Include="Sorting\InPlaceMergeSortUnitTest.cs" />
     <Compile Include="Sorting\IntersectSortedArraysUnitTest.cs" />
     <Compile Include="Sorting\IntervalCoveringProblemUnitTest.cs" />
+    <Compile Include="Sorting\HeapSortUnitTest.cs" />
     <Compile Include="Sorting\MergeSortUnitTest.cs" />
     <Compile Include="Sorting\QuickSortUnitTest.cs" />
     <Compile Include="Sorting\RemoveDuplicatesUnitTest.cs" />
