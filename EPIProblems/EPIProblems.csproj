@@ -88,6 +88,7 @@
     <Compile Include="Searching\BinarySearchInTwoSortedArrays.cs" />
     <Compile Include="Searching\MinMax.cs" />
     <Compile Include="Sorting\IntervalCoveringProblem.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Sorting\SalaryCap.cs" />
     <Compile Include="Searching\Search2DSortedArray.cs" />
     <Compile Include="Searching\SearchKthLargest.cs" />
