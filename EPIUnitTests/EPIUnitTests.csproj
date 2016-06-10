@@ -76,6 +76,7 @@
     <Compile Include="Arrays\SudokuCheckerUnitTest.cs" />
     <Compile Include="Arrays\RemoveArrayElementUnitTest.cs" />
     <Compile Include="DynamicProgramming\Number_WaysUnitTest.cs" />
+    <Compile Include="DynamicProgramming\SumOfSquaresUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblemUnitTest.cs" />
