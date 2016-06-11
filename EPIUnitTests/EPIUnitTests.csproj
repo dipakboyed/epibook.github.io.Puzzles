@@ -78,6 +78,7 @@
     <Compile Include="BinaryTree\FindKUnbalancedNodeUnitTest.cs" />
     <Compile Include="BinaryTree\FindLCAWithParentUnitTest.cs" />
     <Compile Include="BinaryTree\FindLCAUnitTest.cs" />
+    <Compile Include="BinaryTree\FindPathSumUnitTest.cs" />
     <Compile Include="BinaryTree\IsBalancedBinaryTreeUnitTest.cs" />
     <Compile Include="BinaryTree\IsSymmetricBinaryTreeUnitTest.cs" />
     <Compile Include="BinaryTree\SumOfRootToLeafPathsUnitTest.cs" />
