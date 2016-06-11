@@ -1,5 +1,8 @@
-﻿namespace EPI.BinaryTree
+﻿using System.Diagnostics;
+
+namespace EPI.BinaryTree
 {
+	[DebuggerDisplay("Value = {Value}")]
 	public class BinaryTreeNode<T>
 	{
 		private T value;
