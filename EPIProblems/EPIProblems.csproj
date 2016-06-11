@@ -54,6 +54,7 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
+    <Compile Include="BinaryTree\IsBalancedBinaryTree.cs" />
     <Compile Include="DynamicProgramming\Number_Ways.cs" />
     <Compile Include="DynamicProgramming\SumOfSquares.cs" />
     <Compile Include="Graphs\PaintBooleanMatrix.cs" />
