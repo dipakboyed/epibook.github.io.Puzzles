@@ -86,6 +86,7 @@
     <Compile Include="BinaryTree\FindPathSumUnitTest.cs" />
     <Compile Include="BinaryTree\IsBalancedBinaryTreeUnitTest.cs" />
     <Compile Include="BinaryTree\IsSymmetricBinaryTreeUnitTest.cs" />
+    <Compile Include="BinaryTree\LinkedListOfLeafNodesUnitTest.cs" />
     <Compile Include="BinaryTree\NonRecursivePostorderTraversalUnitTest.cs" />
     <Compile Include="BinaryTree\NonRecursivePreorderTraversalUnitTest.cs" />
     <Compile Include="BinaryTree\NonRecursiveInorderTraversalUnitTest.cs" />

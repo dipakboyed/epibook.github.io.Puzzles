@@ -65,6 +65,7 @@
     <Compile Include="BinaryTree\FindSuccessorInorderTraversal.cs" />
     <Compile Include="BinaryTree\IsBalancedBinaryTree.cs" />
     <Compile Include="BinaryTree\IsSymmetricBinaryTree.cs" />
+    <Compile Include="BinaryTree\LinkedListOfLeafNodes.cs" />
     <Compile Include="BinaryTree\NonRecursivePostorderTraversal.cs" />
     <Compile Include="BinaryTree\NonRecursivePreorderTraversal.cs" />
     <Compile Include="BinaryTree\NonRecursiveInorderTraversal.cs" />
