@@ -53,6 +53,7 @@
     <Compile Include="Arrays\SudokuChecker.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
+    <Compile Include="BinaryTree\BinaryTreeExterior.cs" />
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
     <Compile Include="BinaryTree\FindK-UnbalancedNode.cs" />
     <Compile Include="BinaryTree\FindKthNodeInOrderTraversal.cs" />
