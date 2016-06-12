@@ -60,6 +60,7 @@
     <Compile Include="BinaryTree\FindLCA.cs" />
     <Compile Include="BinaryTree\FindLCAWithParent.cs" />
     <Compile Include="BinaryTree\FindPathSum.cs" />
+    <Compile Include="BinaryTree\FindSuccessorInorderTraversal.cs" />
     <Compile Include="BinaryTree\IsBalancedBinaryTree.cs" />
     <Compile Include="BinaryTree\IsSymmetricBinaryTree.cs" />
     <Compile Include="BinaryTree\NonRecursivePostorderTraversal.cs" />
