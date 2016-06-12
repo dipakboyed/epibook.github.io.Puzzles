@@ -19,7 +19,7 @@ namespace EPI.BinaryTree
 				inorderNodeIndex.Add(inorderData[i], i);
 			}
 
-			return BuildTreeFromInorderAndPreOrderHelper(preorderData, 0, preorderData.Count - 1, 0, inorderData.Count - 1, inorderNodeIndex);
+			return BuildTreeFromInorderAndPreOrderHelper(preorderData, 0, preorderData.Count, 0, inorderData.Count, inorderNodeIndex);
 		}
 
 		private static BinaryTreeNode<T> BuildTreeFromInorderAndPreOrderHelper(
@@ -45,7 +45,7 @@ namespace EPI.BinaryTree
 							inorderNodeIndex),
 				Right = BuildTreeFromInorderAndPreOrderHelper(
 							preorderData,
-							preStart + 1+ leftSubtreeSize, preEnd,
+							preStart + 1 + leftSubtreeSize, preEnd,
 							currentNodeInorderIndex + 1, inEnd,
 							inorderNodeIndex)
 			};
