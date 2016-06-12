@@ -75,6 +75,7 @@
     <Compile Include="Arrays\SubstringMatchUnitTest.cs" />
     <Compile Include="Arrays\SudokuCheckerUnitTest.cs" />
     <Compile Include="Arrays\RemoveArrayElementUnitTest.cs" />
+    <Compile Include="BinaryTree\ConstructBinaryTreeFromInorderPreorderUnitTest.cs" />
     <Compile Include="BinaryTree\FindSuccessorInorderTraversalUnitTest.cs" />
     <Compile Include="BinaryTree\BinaryTreeExteriorUnitTest.cs" />
     <Compile Include="BinaryTree\FindKthNodeInOrderTraversalUnitTest.cs" />

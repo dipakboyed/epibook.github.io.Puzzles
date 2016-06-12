@@ -35,7 +35,10 @@ namespace EPI.BinaryTree
 			set
 			{
 				left = value;
-				left.Parent = this;
+				if (left != null)
+				{
+					left.Parent = this;
+				}
 			}
 		}
 
@@ -48,7 +51,10 @@ namespace EPI.BinaryTree
 			set
 			{
 				right = value;
-				right.Parent = this;
+				if (right != null)
+				{
+					right.Parent = this;
+				}
 			}
 		}
 
