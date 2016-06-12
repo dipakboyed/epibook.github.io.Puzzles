@@ -6,10 +6,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace EPI.UnitTests.BinaryTree
 {
 	[TestClass]
-	public class NonRecursiveInorderTraversalUnitTest
+	public class NonRecursivePostorderTraversalUnitTest
 	{
 		[TestMethod]
-		public void PrintNonRecursiveInorderTraversal()
+		public void PrintNonRecursivePostorderTraversal()
 		{
 			BinaryTree<char> tree = new BinaryTree<char>()
 			{
@@ -38,15 +38,17 @@ namespace EPI.UnitTests.BinaryTree
 					}
 				}
 			};
-			NonRecursiveInorderTraversal<char>.PrintInorderTraversal(tree.Root).ShouldBeEquivalentTo(
-				new List<char>() { 'C', 'D', 'B', 'F', 'E', 'A', 'H', 'J', 'I', 'G'});
+			NonRecursivePostorderTraversal<char>.PrintPostorderTraversal(tree.Root).ShouldBeEquivalentTo(
+				new List<char>() { 'D', 'C', 'F', 'E', 'B', 'J', 'I', 'H', 'G', 'A' });
 
-			NonRecursiveInorderTraversal<char>.PrintInorderWithoutParent(tree.Root).ShouldBeEquivalentTo(
-				new List<char>() { 'C', 'D', 'B', 'F', 'E', 'A', 'H', 'J', 'I', 'G' });
+			NonRecursivePostorderTraversal<char>.PostorderUsingInvertedPreorder(tree.Root).ShouldBeEquivalentTo(
+				new List<char>() { 'D', 'C', 'F', 'E', 'B', 'J', 'I', 'H', 'G', 'A' });
 
-			NonRecursiveInorderTraversal<char>.PrintInorderRecursive(tree.Root).ShouldBeEquivalentTo(
-				new List<char>() { 'C', 'D', 'B', 'F', 'E', 'A', 'H', 'J', 'I', 'G' });
+			NonRecursivePostorderTraversal<char>.PostorderWithParent(tree.Root).ShouldBeEquivalentTo(
+				new List<char>() { 'D', 'C', 'F', 'E', 'B', 'J', 'I', 'H', 'G', 'A' });
 
+			NonRecursivePostorderTraversal<char>.PostorderRecursive(tree.Root).ShouldBeEquivalentTo(
+				new List<char>() { 'D', 'C', 'F', 'E', 'B', 'J', 'I', 'H', 'G', 'A' });
 		}
 	}
 }

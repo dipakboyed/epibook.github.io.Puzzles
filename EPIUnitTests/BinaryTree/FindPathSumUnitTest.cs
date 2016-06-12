@@ -8,7 +8,7 @@ namespace EPI.UnitTests.BinaryTree
 	public class FindPathSumUnitTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void FindPathWithGivenWeight()
 		{
 			BinaryTree<int> tree = new BinaryTree<int>()
 			{

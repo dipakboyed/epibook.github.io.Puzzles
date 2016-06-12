@@ -11,6 +11,9 @@ namespace EPI.BinaryTree
 	/// </remarks>
 	public static class NonRecursiveInorderTraversal<T>
 	{
+		#region Non-Recursive implementation with Parent field
+
+		// Implementation with parent field
 		public static List<T> PrintInorderTraversal(BinaryTreeNode<T> root)
 		{
 			List<T> result = new List<T>();
@@ -57,5 +60,72 @@ namespace EPI.BinaryTree
 			}
 			return result;
 		}
+
+		#endregion
+
+		#region Non-Recursive implementation without Parent field
+
+		/// <summary>
+		/// We can also implement a non-recursive inorder traversal using a Stack
+		/// but that takes up O(h) space.
+		/// </summary>
+		/// <param name="root"></param>
+		/// <returns></returns>
+		public static List<T> PrintInorderWithoutParent(BinaryTreeNode<T> root)
+		{
+			List<T> result = new List<T>();
+			Stack<BinaryTreeNode<T>> nodes = new Stack<BinaryTreeNode<T>>();
+			HashSet<BinaryTreeNode<T>> visitedNodes = new HashSet<BinaryTreeNode<T>>();
+			if (root != null)
+			{
+				nodes.Push(root);
+			}
+
+			while(nodes.Count > 0)
+			{
+				BinaryTreeNode<T> current = nodes.Peek();
+				if (current.Left != null && !visitedNodes.Contains(current.Left))
+				{
+					nodes.Push(current.Left);
+				}
+				else
+				{
+					visitedNodes.Add(nodes.Pop());
+					result.Add(current.Value);
+
+					if (current.Right != null && !visitedNodes.Contains(current.Right))
+					{
+						nodes.Push(current.Right);
+					}
+				}
+			}
+			return result;
+		}
+
+		#endregion
+
+		#region Recursive implementation
+
+		// And just for completeness, here is the recursive inorder traversal
+		public static List<T> PrintInorderRecursive(BinaryTreeNode<T> root)
+		{
+			List<T> result = new List<T>();
+			InorderRecursiveHelper(root, result);
+			return result;
+		}
+
+		private static void InorderRecursiveHelper(BinaryTreeNode<T> node, List<T> result)
+		{
+			if (node == null)
+			{
+				return;
+			}
+
+			InorderRecursiveHelper(node.Left, result);
+			result.Add(node.Value);
+			InorderRecursiveHelper(node.Right, result);
+		}
+
+		#endregion
 	}
 }

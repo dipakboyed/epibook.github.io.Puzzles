@@ -8,7 +8,7 @@ namespace EPI.UnitTests.BinaryTree
 	public class SumOfRootToLeafPathsUnitTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void FindSumOfRootToLeafPaths()
 		{
 			BinaryTree<bool> tree = new BinaryTree<bool>()
 			{
