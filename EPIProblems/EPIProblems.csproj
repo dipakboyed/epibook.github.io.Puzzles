@@ -55,11 +55,13 @@
     <Compile Include="BinaryTree\BinaryTree.cs" />
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
     <Compile Include="BinaryTree\FindK-UnbalancedNode.cs" />
+    <Compile Include="BinaryTree\FindKthNodeInOrderTraversal.cs" />
     <Compile Include="BinaryTree\FindLCA.cs" />
     <Compile Include="BinaryTree\FindLCAWithParent.cs" />
     <Compile Include="BinaryTree\FindPathSum.cs" />
     <Compile Include="BinaryTree\IsBalancedBinaryTree.cs" />
     <Compile Include="BinaryTree\IsSymmetricBinaryTree.cs" />
+    <Compile Include="BinaryTree\NonRecursiveInorderTraversal.cs" />
     <Compile Include="BinaryTree\SumOfRootToLeafPaths.cs" />
     <Compile Include="DynamicProgramming\Number_Ways.cs" />
     <Compile Include="DynamicProgramming\SumOfSquares.cs" />
