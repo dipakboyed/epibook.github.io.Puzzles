@@ -113,6 +113,7 @@
     <Compile Include="HashTables\SmallestSubarrayCoveringSetUnitTest.cs" />
     <Compile Include="HashTables\TestForPalindromeUnitTest.cs" />
     <Compile Include="HashTables\TrieShortestUniquePrefixUnitTest.cs" />
+    <Compile Include="HashTables\DivideAndMarkRepeatsUnitTest.cs" />
     <Compile Include="HashTables\ZobristHashingForChessUnitTest.cs" />
     <Compile Include="Heaps\MaxHeapUnitTest.cs" />
     <Compile Include="Heaps\MinHeapUnitTest.cs" />
