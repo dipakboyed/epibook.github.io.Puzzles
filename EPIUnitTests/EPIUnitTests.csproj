@@ -91,6 +91,7 @@
     <Compile Include="BinaryTree\NonRecursivePreorderTraversalUnitTest.cs" />
     <Compile Include="BinaryTree\NonRecursiveInorderTraversalUnitTest.cs" />
     <Compile Include="BinaryTree\SumOfRootToLeafPathsUnitTest.cs" />
+    <Compile Include="DynamicProgramming\LongestCommonSubsequenceUnitTest.cs" />
     <Compile Include="DynamicProgramming\LevenshteinDistanceUnitTest.cs" />
     <Compile Include="DynamicProgramming\Number_WaysUnitTest.cs" />
     <Compile Include="DynamicProgramming\SumOfSquaresUnitTest.cs" />

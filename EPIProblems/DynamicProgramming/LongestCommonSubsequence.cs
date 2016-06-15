@@ -9,7 +9,7 @@ namespace EPI.DynamicProgramming
 	/// A subsequence unlike substring isn't required to occupy consecutive positions
 	/// </summary>
 	/// <example>
-	/// LCS of "catamaoran" and "himoarea" is {m,a,r,a}
+	/// LCS of "catamaoran" and "himoarea" is {m,a,r,a} or {m,o,r,a}
 	/// </example>
 	/// <remarks>
 	/// LCS is useful to implement diff comparison utility and used in revision control systems like Git
@@ -52,7 +52,7 @@ namespace EPI.DynamicProgramming
 					else
 					{
 
-						currentRow[i] = Math.Max(previousRow[i - 1], currentRow[i - 1]);
+						currentRow[i] = Math.Max(previousRow[i], currentRow[i - 1]);
 					}
 				}
 				// update for next iteration
