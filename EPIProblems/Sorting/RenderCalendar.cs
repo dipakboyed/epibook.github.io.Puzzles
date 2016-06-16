@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.Sorting
 {
 	/// <summary>
 	/// Write a program that takes a set of calendar events (with start and end times) and determines
-	/// the maximum number of calendart events taking place concurrently
+	/// the maximum number of calendar events taking place concurrently
 	/// </summary>
 	public static class RenderCalendar
 	{
@@ -26,12 +23,12 @@ namespace EPI.Sorting
 
 		private class Entry : IComparable
 		{
-			public DateTime Time;
-			public bool IsEventStart;
+			private DateTime _time;
+			public readonly bool IsEventStart;
 
 			public Entry(DateTime time, bool isStart)
 			{
-				Time = time;
+				_time = time;
 				IsEventStart = isStart;
 			}
 
@@ -40,7 +37,7 @@ namespace EPI.Sorting
 				Entry e = obj as Entry;
 				if (e != null)
 				{
-					return (Time != e.Time) ? Time.CompareTo(e.Time) : IsEventStart.CompareTo(e.IsEventStart);
+					return (_time != e._time) ? _time.CompareTo(e._time) : IsEventStart.CompareTo(e.IsEventStart);
 				}
 				throw new InvalidOperationException();
 			}
