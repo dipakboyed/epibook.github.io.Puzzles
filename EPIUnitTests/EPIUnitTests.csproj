@@ -120,6 +120,7 @@
     <Compile Include="Heaps\MinHeapUnitTest.cs" />
     <Compile Include="LinkedLists\MergeTwoSortedListsUnitTest.cs" />
     <Compile Include="LinkedLists\ReverseLinkedListUnitTest.cs" />
+    <Compile Include="PrimitiveTypes\PowerUnitTest.cs" />
     <Compile Include="PrimitiveTypes\GCDUnitTest.cs" />
     <Compile Include="PrimitiveTypes\DivideUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
