@@ -80,6 +80,7 @@
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblem.cs" />
     <Compile Include="HashTables\AnonymousLetterConstruction.cs" />
     <Compile Include="HashTables\DivideAndMarkRepeats.cs" />
+    <Compile Include="HashTables\MergeContacts.cs" />
     <Compile Include="HashTables\PairUsersByAttribute.cs" />
     <Compile Include="HashTables\ZobristHashingForChess.cs" />
     <Compile Include="HashTables\Collatz.cs" />
