@@ -55,6 +55,7 @@
     <Compile Include="BinaryTree\BinarySearchTree\IsBinarySearchTree.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
     <Compile Include="BinaryTree\BinaryTreeExterior.cs" />
+    <Compile Include="BinaryTree\BinaryTreeLocking.cs" />
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
     <Compile Include="BinaryTree\ComputeRightSibling.cs" />
     <Compile Include="BinaryTree\ConstructBinaryTreeFromPreorderWithNull.cs" />
