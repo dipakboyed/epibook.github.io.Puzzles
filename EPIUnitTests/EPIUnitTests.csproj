@@ -127,6 +127,7 @@
     <Compile Include="PrimitiveTypes\GCDUnitTest.cs" />
     <Compile Include="PrimitiveTypes\DivideUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursion\NQueensUnitTest.cs" />
     <Compile Include="Recursion\RegexMatchingUnitTest.cs" />
     <Compile Include="Recursion\TowersOfHanoiUnitTest.cs" />
     <Compile Include="Searching\BinarySearchArrayOfUnknownLengthUnitTest.cs" />
