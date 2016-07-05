@@ -113,6 +113,7 @@
     <Compile Include="PrimitiveTypes\Parity.cs" />
     <Compile Include="PrimitiveTypes\Power.cs" />
     <Compile Include="PrimitiveTypes\SwapBits.cs" />
+    <Compile Include="Recursion\EnumeratePowerSet.cs" />
     <Compile Include="Recursion\EnumeratePermutations.cs" />
     <Compile Include="Recursion\NQueens.cs" />
     <Compile Include="Recursion\RegexMatching.cs" />
