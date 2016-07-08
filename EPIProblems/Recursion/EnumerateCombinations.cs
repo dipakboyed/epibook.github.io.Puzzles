@@ -38,9 +38,9 @@ namespace EPI.Recursion
 			{
 				for (int i = index; i < array.Length; i++)
 				{
-					List<int> newSet = new List<int>(currentSet);
-					newSet.Add(array[i]);
-					CombinationsHelper(array, k, i + 1, newSet, result);
+					currentSet.Add(array[i]);
+					CombinationsHelper(array, k, i + 1, currentSet, result);
+					currentSet.RemoveAt(currentSet.Count - 1);
 				}
 			}
 		}
