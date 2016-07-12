@@ -1,5 +1,4 @@
-﻿using EPI.BinaryTree;
-using EPI.Recursion;
+﻿using EPI.Recursion;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
