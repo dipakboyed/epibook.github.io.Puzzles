@@ -118,6 +118,7 @@
     <Compile Include="Recursion\EnumeratePowerSet.cs" />
     <Compile Include="Recursion\EnumeratePermutations.cs" />
     <Compile Include="Recursion\EnumerateStringsOfBalancedParens.cs" />
+    <Compile Include="Recursion\FindClosestPoints.cs" />
     <Compile Include="Recursion\NQueens.cs" />
     <Compile Include="Recursion\PalindromicDecompositions.cs" />
     <Compile Include="Recursion\RegexMatching.cs" />

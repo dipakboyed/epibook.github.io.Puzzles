@@ -132,6 +132,7 @@
     <Compile Include="Recursion\EnumerateCombinationsUnitTest.cs" />
     <Compile Include="Recursion\EnumeratePowerSetUnitTest.cs" />
     <Compile Include="Recursion\EnumeratePermutationsUnitTest.cs" />
+    <Compile Include="Recursion\FindClosestPointsUnitTest.cs" />
     <Compile Include="Recursion\NQueensUnitTest.cs" />
     <Compile Include="Recursion\PalindromicDecompositionUnitTest.cs" />
     <Compile Include="Recursion\RegexMatchingUnitTest.cs" />

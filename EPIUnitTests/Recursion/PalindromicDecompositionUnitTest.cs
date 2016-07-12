@@ -8,7 +8,7 @@ namespace EPI.UnitTests.Recursion
 	public class PalindromicDecompositionUnitTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void FindAllPalindromeSubstrings()
 		{
 			PalindromicDecompositions.FindAllPalindromicDecompositions("0204451881").Should().HaveCount(12);
 		}
