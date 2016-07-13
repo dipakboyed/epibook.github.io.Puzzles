@@ -96,6 +96,7 @@
     <Compile Include="BinaryTree\SumOfRootToLeafPathsUnitTest.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequenceUnitTest.cs" />
     <Compile Include="DynamicProgramming\LevenshteinDistanceUnitTest.cs" />
+    <Compile Include="DynamicProgramming\MaxSubarrayUnitTest.cs" />
     <Compile Include="DynamicProgramming\Number_WaysUnitTest.cs" />
     <Compile Include="DynamicProgramming\SumOfSquaresUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
