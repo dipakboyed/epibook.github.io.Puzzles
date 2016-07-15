@@ -11,7 +11,7 @@ namespace EPI.HashTables
 	/// </example>
 	public static class TrieShortestUniquePrefix
 	{
-		public static string FindShortestUniquePreix(string query, HashSet<string> dictionary)
+		public static string FindShortestUniquePrefix(string query, HashSet<string> dictionary)
 		{
 			// Build a trie data structure from the dictionar
 			Trie trie = new Trie();

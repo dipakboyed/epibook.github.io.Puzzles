@@ -22,7 +22,7 @@ namespace EPI.BinaryTree
 				return;
 			}
 
-			// recursively do in-order traversal
+			// recursively do pre-order traversal
 			if (node.Left == null && node.Right == null)
 			{
 				// leaf node

@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.HashTables
 {
 	/// <summary>
 	/// Test the Collatz conjecture for the first n positive integers.
-	/// Collatz conjecture: Take any natural number. If it's odd, tripe it and add one.
+	/// Collatz conjecture: Take any natural number. If it's odd, triple it and add one.
 	/// If it's even, halve it. Repeat. No matter what number you choose, the sequence
 	/// will converge to 1.
-	/// NOTE: The conjecture has either been proved or disproved.
+	/// NOTE: The conjecture has neither been proved or disproved.
 	/// </summary>
 	/// <example>
 	/// 11 follows the sequence: {11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1}

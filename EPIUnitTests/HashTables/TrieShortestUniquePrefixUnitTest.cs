@@ -11,7 +11,7 @@ namespace EPI.UnitTests.HashTables
 		[TestMethod]
 		public void FinsShortestUniquePrefixNotPresent()
 		{
-			TrieShortestUniquePrefix.FindShortestUniquePreix("cat", new HashSet<string>()
+			TrieShortestUniquePrefix.FindShortestUniquePrefix("cat", new HashSet<string>()
 			{ "dog", "be", "cut", "car"}).Should().Be("cat");
 		}
 	}

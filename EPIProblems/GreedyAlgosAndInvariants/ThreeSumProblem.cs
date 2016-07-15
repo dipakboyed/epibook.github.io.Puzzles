@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace EPI.GreedyAlgosAndInvariants
 {
 	/// <summary>
-	/// Problem 18.6 The 3-sum problem
 	/// Design an algorithm that takes as input an array A and a number t,
 	/// and determines if A 3-creates t.
 	/// Array A, k-creates-t if the sum of A[i] where i ranges from [0..k] equals t.
@@ -17,7 +12,7 @@ namespace EPI.GreedyAlgosAndInvariants
 	{
 		public static bool HasThreeSum(List<int>A, int t)
 		{
-			A.Sort(); // See Chapter 14 for sorting
+			A.Sort(); // assume sorting function is available. (otherwise provide custom implementation e.g. quicksort)
 
 			foreach(int a in A)
 			{

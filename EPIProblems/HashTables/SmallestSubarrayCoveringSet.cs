@@ -37,7 +37,7 @@ namespace EPI.HashTables
 					if (keywordsToCount.Count == keywords.Count)
 					{
 						// found all keywords
-						// now increment start index until we still have all keywords
+						// now decrement start index until we still have all keywords
 						while (start < i && keywordsToCount.Count == keywords.Count)
 						{
 							if (keywordsToCount.ContainsKey(paragraph[start]))
