@@ -52,6 +52,7 @@
     <Compile Include="Arrays\SubstringMatch.cs" />
     <Compile Include="Arrays\SudokuChecker.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="BinaryTree\BinarySearchTree\FindSmallestPathSumN.cs" />
     <Compile Include="BinaryTree\BinarySearchTree\IsBinarySearchTree.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
     <Compile Include="BinaryTree\BinaryTreeExterior.cs" />
