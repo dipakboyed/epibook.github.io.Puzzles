@@ -23,8 +23,16 @@ namespace EPI.DynamicProgramming
 					}
 				}
 			}
-
-			return result[array.Length - 1];
+			// find max value in result
+			int max = result[0];
+			for (int i = 0; i < result.Length; i++)
+			{
+				if ( max < result[i])
+				{
+					max = result[i];
+				}
+			}
+			return max;
 		}
 	}
 }

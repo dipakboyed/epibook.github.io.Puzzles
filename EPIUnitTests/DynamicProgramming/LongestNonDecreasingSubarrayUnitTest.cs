@@ -10,7 +10,7 @@ namespace EPI.UnitTests.DynamicProgramming
 		[TestMethod]
 		public void FindLengthOfLongestNonDecreasingSubarray()
 		{
-			LongestNonDecreasingSubarray.FindLengthOfLongestNonDecreasingSubarray(new[] { 5, 3, 4, 8, 6, 7 }).Should().Be(4);
+			LongestNonDecreasingSubarray.FindLengthOfLongestNonDecreasingSubarray(new[] { 3, 4, 8, 6, 7, 5 }).Should().Be(4);
 		}
 	}
 }
