@@ -74,8 +74,10 @@
     <Compile Include="BinaryTree\NonRecursivePreorderTraversal.cs" />
     <Compile Include="BinaryTree\NonRecursiveInorderTraversal.cs" />
     <Compile Include="BinaryTree\SumOfRootToLeafPaths.cs" />
+    <Compile Include="DynamicProgramming\CoinSum.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\LevenshteinDistance.cs" />
+    <Compile Include="DynamicProgramming\LongestNonDecreasingSubarray.cs" />
     <Compile Include="DynamicProgramming\MaxSubarray.cs" />
     <Compile Include="DynamicProgramming\Number_Ways.cs" />
     <Compile Include="DynamicProgramming\SumOfSquares.cs" />
