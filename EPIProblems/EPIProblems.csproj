@@ -82,6 +82,7 @@
     <Compile Include="DynamicProgramming\Number_Ways.cs" />
     <Compile Include="DynamicProgramming\ShortestPathInGraph.cs" />
     <Compile Include="DynamicProgramming\SumOfSquares.cs" />
+    <Compile Include="DynamicProgramming\ZigZag.cs" />
     <Compile Include="Graphs\PaintBooleanMatrix.cs" />
     <Compile Include="Graphs\SearchAMaze.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblem.cs" />
