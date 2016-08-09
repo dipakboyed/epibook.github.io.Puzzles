@@ -99,6 +99,7 @@ namespace EPI.Graphs
 							bool foundWord = false;
 							if (word.Length == 1)
 							{
+								foundWord = true;
 								pos = new Position() { X = startPos.Item1, Y = startPos.Item2 };
 								break;
 							}

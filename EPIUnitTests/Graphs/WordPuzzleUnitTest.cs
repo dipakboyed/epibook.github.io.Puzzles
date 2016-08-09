@@ -24,7 +24,7 @@ namespace EPI.UnitTests.Graphs
 			};
 			List<string> words = new List<string>()
 			{
-				"hello", "sos", "yell", "lib", "libs", "hey", "zumba", "heys", "tall"
+				"hello", "sos", "yell", "lib", "libs", "hey", "zumba", "heys", "tall", "i", "fy", ""
 			};
 			WordPuzzle.FindAllWords(maze, words).ShouldBeEquivalentTo(new List<WordPuzzle.Position>()
 			{
@@ -37,6 +37,9 @@ namespace EPI.UnitTests.Graphs
 				new WordPuzzle.Position() {X = -1, Y = -1 , dir = -1 },
 				new WordPuzzle.Position() {X = -1, Y = -1 , dir = -1 },
 				new WordPuzzle.Position() {X = -1, Y = -1 , dir = -1 },
+				new WordPuzzle.Position() {X = 0, Y = 1 , dir = -1 },
+				new WordPuzzle.Position() {X = 4, Y = 2 , dir = 0 },
+				new WordPuzzle.Position() {X= -1, Y= -1, dir = -1 }
 			});
 		}
 	}
