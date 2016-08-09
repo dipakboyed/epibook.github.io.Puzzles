@@ -86,6 +86,7 @@
     <Compile Include="DynamicProgramming\ZigZag.cs" />
     <Compile Include="Graphs\PaintBooleanMatrix.cs" />
     <Compile Include="Graphs\SearchAMaze.cs" />
+    <Compile Include="Graphs\WordPuzzle.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblem.cs" />
     <Compile Include="HashTables\AnonymousLetterConstruction.cs" />
     <Compile Include="HashTables\DivideAndMarkRepeats.cs" />

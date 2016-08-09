@@ -107,6 +107,7 @@
     <Compile Include="DynamicProgramming\ZigZagUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
+    <Compile Include="Graphs\WordPuzzleUnitTest.cs" />
     <Compile Include="GreedyAlgosAndInvariants\ThreeSumProblemUnitTest.cs" />
     <Compile Include="HashTables\AnonymousLetterConstructionUnitTest.cs" />
     <Compile Include="HashTables\CollatzUnitTest.cs" />
