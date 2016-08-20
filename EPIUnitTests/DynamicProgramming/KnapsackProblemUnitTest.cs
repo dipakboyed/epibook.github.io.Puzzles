@@ -8,7 +8,7 @@ namespace EPI.UnitTests.DynamicProgramming
 	public class KnapsackProblemUnitTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void MaximizeKnapsackValue()
 		{
 			KnapsackProblem.Clock[] store = new KnapsackProblem.Clock[]
 			{
