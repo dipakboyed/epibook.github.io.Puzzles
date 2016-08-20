@@ -77,6 +77,7 @@
     <Compile Include="DynamicProgramming\BadNeighbors.cs" />
     <Compile Include="DynamicProgramming\BinomialCoefficients.cs" />
     <Compile Include="DynamicProgramming\CoinSum.cs" />
+    <Compile Include="DynamicProgramming\FishingTrip.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\LevenshteinDistance.cs" />
     <Compile Include="DynamicProgramming\LongestNonDecreasingSubarray.cs" />
