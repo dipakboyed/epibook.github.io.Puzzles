@@ -75,6 +75,7 @@
     <Compile Include="BinaryTree\NonRecursiveInorderTraversal.cs" />
     <Compile Include="BinaryTree\SumOfRootToLeafPaths.cs" />
     <Compile Include="DynamicProgramming\BadNeighbors.cs" />
+    <Compile Include="DynamicProgramming\BinomialCoefficients.cs" />
     <Compile Include="DynamicProgramming\CoinSum.cs" />
     <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\LevenshteinDistance.cs" />

@@ -105,6 +105,7 @@
     <Compile Include="DynamicProgramming\ShortestPathInGraphUnitTest.cs" />
     <Compile Include="DynamicProgramming\SumOfSquaresUnitTest.cs" />
     <Compile Include="DynamicProgramming\ScoreCombinationsUnitTest.cs" />
+    <Compile Include="DynamicProgramming\BinomialCoefficientsUnitTest.cs" />
     <Compile Include="DynamicProgramming\ZigZagUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
