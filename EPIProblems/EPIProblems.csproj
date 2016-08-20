@@ -84,6 +84,7 @@
     <Compile Include="DynamicProgramming\MaxSubarray.cs" />
     <Compile Include="DynamicProgramming\Number_Ways.cs" />
     <Compile Include="DynamicProgramming\ScoreCombinations.cs" />
+    <Compile Include="DynamicProgramming\SearchSequenceIn2DArray.cs" />
     <Compile Include="DynamicProgramming\ShortestPathInGraph.cs" />
     <Compile Include="DynamicProgramming\SumOfSquares.cs" />
     <Compile Include="DynamicProgramming\ZigZag.cs" />
