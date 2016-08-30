@@ -89,6 +89,9 @@
     <Compile Include="DynamicProgramming\ShortestPathInGraph.cs" />
     <Compile Include="DynamicProgramming\SumOfSquares.cs" />
     <Compile Include="DynamicProgramming\ZigZag.cs" />
+    <Compile Include="Graphs\Algorithms\AdjacencyListGraph.cs" />
+    <Compile Include="Graphs\Algorithms\AdjacencyListGraphNode.cs" />
+    <Compile Include="Graphs\Algorithms\DjikstrasShortestPath.cs" />
     <Compile Include="Graphs\PaintBooleanMatrix.cs" />
     <Compile Include="Graphs\SearchAMaze.cs" />
     <Compile Include="Graphs\WordPuzzle.cs" />

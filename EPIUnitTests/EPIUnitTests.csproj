@@ -109,6 +109,7 @@
     <Compile Include="DynamicProgramming\SearchSequenceIn2DArrayUnitTest.cs" />
     <Compile Include="DynamicProgramming\KnapsackProblemUnitTest.cs" />
     <Compile Include="DynamicProgramming\ZigZagUnitTest.cs" />
+    <Compile Include="Graphs\Algorithms\DjikstrasShortestPathUnitTest.cs" />
     <Compile Include="Graphs\PaintBooleanMatrixUnitTest.cs" />
     <Compile Include="Graphs\SearchAMazeUnitTest.cs" />
     <Compile Include="Graphs\WordPuzzleUnitTest.cs" />
