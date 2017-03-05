@@ -78,6 +78,7 @@
     <Compile Include="BinaryTree\BinarySearchTree\FindSmallestPathSumNUnitTest.cs" />
     <Compile Include="BinaryTree\BinarySearchTree\IsBinarySearchTreeUnitTest.cs" />
     <Compile Include="BinaryTree\BinartyTreeLockingUnitTest.cs" />
+    <Compile Include="BinaryTree\BinarySearchTree\RadiusFromBSTNodeUnitTest.cs" />
     <Compile Include="BinaryTree\ComputeRightSiblingUnitTest.cs" />
     <Compile Include="BinaryTree\ConstructBinaryTreeFromPreorderWithNullUnitTest.cs" />
     <Compile Include="BinaryTree\ConstructBinaryTreeFromInorderPreorderUnitTest.cs" />

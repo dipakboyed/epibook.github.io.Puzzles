@@ -54,6 +54,7 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="BinaryTree\BinarySearchTree\FindSmallestPathSumN.cs" />
     <Compile Include="BinaryTree\BinarySearchTree\IsBinarySearchTree.cs" />
+    <Compile Include="BinaryTree\BinarySearchTree\RadiusFromBSTNode.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
     <Compile Include="BinaryTree\BinaryTreeExterior.cs" />
     <Compile Include="BinaryTree\BinaryTreeLocking.cs" />
