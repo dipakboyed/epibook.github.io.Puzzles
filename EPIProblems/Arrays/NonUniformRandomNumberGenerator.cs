@@ -11,7 +11,7 @@ namespace EPI.Arrays
 	/// </summary>
 	public static class NonUniformRandomNumberGenerator
 	{
-		internal static Random randomGenerator = new Random();
+		public static Random randomGenerator = new Random();
 
 		public static int GenerateNonUniformRandomNumber(int[] numbers, double[] probabilities)
 		{

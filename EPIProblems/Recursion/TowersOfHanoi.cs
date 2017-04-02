@@ -12,15 +12,15 @@ namespace EPI.Recursion
 	/// </summary>
 	public static class TowersOfHanoi
 	{
-		internal static List<Stack> pegs;
+		public static List<Stack<int>> pegs;
 
 		public static void TransferPegs(int n)
 		{
-			pegs = new List<Stack>()
+			pegs = new List<Stack<int>>()
 			{
-				new Stack(),
-				new Stack(),
-				new Stack()
+				new Stack<int>(),
+				new Stack<int>(),
+				new Stack<int>()
 			};
 			for (int i=n; i > 0; i--)
 			{
