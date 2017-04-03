@@ -1,33 +1,81 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace EPI.Graphs.Algorithms
 {
 	public class AdjacencyListGraph
-	{
-		public AdjacencyListGraph(int noOfVertices)
-		{
-			Vertices = new AdjacencyListGraphNode[noOfVertices];
-			for (int i = 0; i < noOfVertices; i++)
-			{
-				Vertices[i] = new AdjacencyListGraphNode();
-			}
-		}
-		public AdjacencyListGraphNode[] Vertices;
+{
+        public LinkedList<AdjacencyListGraphNode>[] nodes;
+        public AdjacencyListGraph(int noOfNodes)
+        {
+            nodes = new LinkedList<AdjacencyListGraphNode>[noOfNodes];
+            for(int i=0; i< noOfNodes; i++)
+            {
+                nodes[i] = new LinkedList<AdjacencyListGraphNode>();
+            }
+        }
 
-		public void AddEdge(int from, int to, int weight)
-		{
-			if (from >= 0 && from < Vertices.Count() && to >= 0 && to < Vertices.Count())
-			{
-				if (!Vertices[from].Edges.ContainsKey(to))
-				{
-					Vertices[from].Edges.Add(to, weight);
-				}
-			}
-		}
+        public void AddEdge(int source, int dest, int weight)
+        {
+            if (source >= 0 && source < nodes.Length &&
+                dest >= 0 && dest < nodes.Length)
+                {
+                    nodes[source].AddLast(new AdjacencyListGraphNode(dest, weight));
+                }
+        }
 
-		public bool HasEdge(int from, int to)
-		{
-			return Vertices[from].Edges.ContainsKey(to);
-		}
-	}
+        public int[] BFSTraverse(int startingNode)
+        {
+            List<int> traversalOrder = new List<int>();
+            if (startingNode >= 0 && startingNode < nodes.Length)
+            {
+                bool[] visited = new bool[nodes.Length];
+                visited[startingNode] = true;
+                Queue<int> queue = new Queue<int>();
+                queue.Enqueue(startingNode);
+
+                while(queue.Count > 0)
+                {
+                    int curr = queue.Dequeue();
+                    traversalOrder.Add(curr);
+
+                    foreach(var node in nodes[curr])
+                    {
+                        if (! visited[node.destNode])
+                        {
+                            visited[node.destNode] = true;
+                            queue.Enqueue(node.destNode);
+                        }
+                    }
+                }
+            }
+            return traversalOrder.ToArray();
+        }
+
+        public int[] DFSTraverse(int startingNode)
+        {
+            List<int> traverseOrder = new List<int>();
+            bool[] visited = new bool[nodes.Length];
+            if (startingNode >= 0 && startingNode < nodes.Length)
+            {
+                visited[startingNode] = true;
+                traverseOrder.Add(startingNode);
+                DFSHelper(startingNode, visited, traverseOrder);
+            }
+            return traverseOrder.ToArray();
+        }
+
+        private void DFSHelper(int curr, bool[] visited, List<int> traverseOrder)
+        {
+            foreach(var node in nodes[curr])
+            {
+                if (!visited[node.destNode])
+                {
+                    visited[node.destNode] = true;
+                    traverseOrder.Add(node.destNode);
+                    DFSHelper(node.destNode, visited, traverseOrder);
+                }
+            }
+        }
+    }
 }

@@ -1,15 +1,13 @@
-﻿using System.Collections.Generic;
-
-namespace EPI.Graphs.Algorithms
+﻿namespace EPI.Graphs.Algorithms
 {
-	public class AdjacencyListGraphNode
+    public class AdjacencyListGraphNode
 	{
-		public AdjacencyListGraphNode()
+		public int destNode;
+        public int weight;
+		public AdjacencyListGraphNode(int node, int w)
 		{
-			Edges = new Dictionary<int, int>();
+			destNode = node;
+			weight = w;
 		}
-
-		// key: destination vertex index, value: weight of edge
-		public Dictionary<int, int> Edges;
 	}
 }

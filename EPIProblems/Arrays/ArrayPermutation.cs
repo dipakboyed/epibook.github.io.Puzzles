@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace EPI.Arrays
 {
-	/// <summary>
-	/// Given an array of n elements and a permutation P, apply P to A
-	/// using only constant storage.
-	/// Retunr the result in the original array itself
-	/// </summary>
-	/// <example> Permutation [3,2,1,0] on [a,b,c,d] will result in [d,c,b,a]</example>
-	public static class ArrayPermutation<T>
+    /// <summary>
+    /// Given an array of n elements and a permutation P, apply P to A
+    /// using only constant storage.
+    /// Retunr the result in the original array itself
+    /// </summary>
+    /// <example> Permutation [3,2,1,0] on [a,b,c,d] will result in [d,c,b,a]</example>
+    public static class ArrayPermutation<T>
 	{
 		public static void ApplyPermutation(List<T> array, List<int> permutation) 
 		{

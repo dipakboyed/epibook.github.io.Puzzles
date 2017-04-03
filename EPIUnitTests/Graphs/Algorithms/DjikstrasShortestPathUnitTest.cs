@@ -1,13 +1,12 @@
 ﻿using EPI.Graphs.Algorithms;
-using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EPI.UnitTests.Graphs.Algorithms
 {
-	/// <summary>
-	/// Summary description for DjikstrasShortestPathUnitTest
-	/// </summary>
-	[TestClass]
+    /// <summary>
+    /// Summary description for DjikstrasShortestPathUnitTest
+    /// </summary>
+    [TestClass]
 	public class DjikstrasShortestPathUnitTest
 	{
 

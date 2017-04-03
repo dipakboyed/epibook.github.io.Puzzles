@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using EPI.DynamicProgramming;
 
@@ -7,7 +6,7 @@ using FluentAssertions;
 
 namespace EPI.UnitTests.DynamicProgramming
 {
-	[TestClass]
+    [TestClass]
 	public class Number_WaysUnitTest
 	{
 		[TestMethod]

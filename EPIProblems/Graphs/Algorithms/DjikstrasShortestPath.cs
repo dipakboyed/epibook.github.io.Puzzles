@@ -7,22 +7,22 @@ namespace EPI.Graphs.Algorithms
 	{
 		public static int[] FindShortestPathBasic(AdjacencyListGraph graph, int fromVertex)
 		{
-			int[] distance = Enumerable.Repeat(int.MaxValue, graph.Vertices.Count()).ToArray();
-			HashSet<int> processedVertices = new HashSet<int>();
+			int[] distance = Enumerable.Repeat(int.MaxValue, graph.nodes.Count()).ToArray();
+			HashSet<int> processednodes = new HashSet<int>();
 			distance[fromVertex] = 0;
 
-			while(processedVertices.Count() < graph.Vertices.Count())
+			while(processednodes.Count() < graph.nodes.Count())
 			{
-				int vertex = MinDistanceVertex(graph, processedVertices, distance);
-				processedVertices.Add(vertex);
+				int vertex = MinDistanceVertex(graph, processednodes, distance);
+				processednodes.Add(vertex);
 
-				foreach (var edgeTo in graph.Vertices[vertex].Edges.Keys)
+				foreach (var node in graph.nodes[vertex])
 				{
-					if (!processedVertices.Contains(edgeTo) && 
+					if (!processednodes.Contains(node.destNode) && 
 						distance[vertex] != int.MaxValue &&
-						distance[edgeTo] > distance[vertex] + graph.Vertices[vertex].Edges[edgeTo])
+						distance[node.destNode] > distance[vertex] + node.weight)
 					{
-						distance[edgeTo] = distance[vertex] + graph.Vertices[vertex].Edges[edgeTo];
+						distance[node.destNode] = distance[vertex] + node.weight;
 					}
 				}
 			}
@@ -35,13 +35,13 @@ namespace EPI.Graphs.Algorithms
 
 		//}
 
-		private static int MinDistanceVertex(AdjacencyListGraph graph, HashSet<int> processedVertices, int[] distance)
+		private static int MinDistanceVertex(AdjacencyListGraph graph, HashSet<int> processednodes, int[] distance)
 		{
 			int minDistance = int.MaxValue;
 			int vertexToReturn = -1;
-			for( int i = 0; i <graph.Vertices.Count(); i++)
+			for( int i = 0; i <graph.nodes.Count(); i++)
 			{
-				if (!processedVertices.Contains(i) && distance[i] < minDistance)
+				if (!processednodes.Contains(i) && distance[i] < minDistance)
 				{
 					minDistance = distance[i];
 					vertexToReturn = i;
