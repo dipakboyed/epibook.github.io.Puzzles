@@ -1,18 +1,19 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
 namespace EPI.Graphs.Algorithms
 {
-	public class AdjacencyListGraph
+    public class AdjacencyListGraph
 {
         public LinkedList<AdjacencyListGraphNode>[] nodes;
-        public AdjacencyListGraph(int noOfNodes)
+        private bool isUndirectedGraph;
+        public AdjacencyListGraph(int noOfNodes, bool isUndirected = false)
         {
             nodes = new LinkedList<AdjacencyListGraphNode>[noOfNodes];
             for(int i=0; i< noOfNodes; i++)
             {
                 nodes[i] = new LinkedList<AdjacencyListGraphNode>();
             }
+            isUndirectedGraph = isUndirected;
         }
 
         public void AddEdge(int source, int dest, int weight)
@@ -21,6 +22,10 @@ namespace EPI.Graphs.Algorithms
                 dest >= 0 && dest < nodes.Length)
                 {
                     nodes[source].AddLast(new AdjacencyListGraphNode(dest, weight));
+                    if (isUndirectedGraph)
+                    {
+                        nodes[dest].AddLast(new AdjacencyListGraphNode(source,weight));
+                    }
                 }
         }
 

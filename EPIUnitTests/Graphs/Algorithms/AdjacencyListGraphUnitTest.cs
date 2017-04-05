@@ -35,6 +35,20 @@ namespace EPI.UnitTests.Graphs.Algorithms
         }
 
         [TestMethod]
+        public void AdjacencyListUndirectedGraphCreatedSuccessfully()
+        {
+            AdjacencyListGraph graph = new AdjacencyListGraph(3, true);
+            graph.AddEdge(0,1,1);
+            graph.AddEdge(0,2,1);
+            graph.AddEdge(1,2,1);
+
+            Assert.AreEqual(3, graph.nodes.Length, "list based graph has 3 nodes");
+            Assert.AreEqual(2, graph.nodes[0].Count);
+            Assert.AreEqual(2, graph.nodes[1].Count);
+            Assert.AreEqual(2, graph.nodes[2].Count);
+        }
+
+        [TestMethod]
         public void BFSTraversal()
         {
             AdjacencyListGraph graph = new AdjacencyListGraph(4);
