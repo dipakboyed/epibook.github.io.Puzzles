@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using EPI.HashTables;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EPI.UnitTests.HashTables
 {
-	[TestClass]
+    [TestClass]
 	public class SmallestSequentialSubarrayCoveringSetUnitTest
 	{
 		[TestMethod]

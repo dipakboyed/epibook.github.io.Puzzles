@@ -1,10 +1,9 @@
 using EPI.Graphs.Algorithms;
-using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EPI.UnitTests.Graphs.Algorithms
 {
-	[TestClass]
+    [TestClass]
 	public class MinHeapWithDecreaseKeyUnitTest
 	{
 

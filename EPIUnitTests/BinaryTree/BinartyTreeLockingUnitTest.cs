@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using EPI.BinaryTree;
+﻿using EPI.BinaryTree;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EPI.UnitTests.BinaryTree
 {
-	[TestClass]
+    [TestClass]
 	public class BinaryTreeLockingUnitTest
 	{
 		[TestMethod]

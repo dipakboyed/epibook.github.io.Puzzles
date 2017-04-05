@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace EPI.HashTables
 {
-	/// <summary>
-	/// A palindrome is a word that reads the same forwards and backwards. e.g. "level", "radar".
-	/// Write a program to test whether the letters forming a string can be permutted to form a
-	/// palindrome.
-	/// </summary>
-	/// <example>
-	/// "edified" can be permuted to form "deified" which is a palindrome.
-	/// </example>
-	public static class TestForPalindrome
+    /// <summary>
+    /// A palindrome is a word that reads the same forwards and backwards. e.g. "level", "radar".
+    /// Write a program to test whether the letters forming a string can be permutted to form a
+    /// palindrome.
+    /// </summary>
+    /// <example>
+    /// "edified" can be permuted to form "deified" which is a palindrome.
+    /// </example>
+    public static class TestForPalindrome
 	{
 		public static bool CanWordBeAPalindrome(string word)
 		{

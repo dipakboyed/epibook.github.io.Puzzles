@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Text;
-using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using EPI.Graphs;
@@ -9,7 +7,7 @@ using FluentAssertions;
 
 namespace EPI.UnitTests.Graphs
 {
-	[TestClass]
+    [TestClass]
 	public class PaintBooleanMatrixUnitTest
 	{
 		static bool[,] originalMatrix = new bool[10, 10] 

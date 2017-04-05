@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using EPI.GreedyAlgosAndInvariants;
 
 namespace EPI.UnitTests.GreedyAlgosAndInvariants
 {
-	[TestClass]
+    [TestClass]
 	public class ThreeSumProblemUnitTest
 	{
 		[TestMethod]

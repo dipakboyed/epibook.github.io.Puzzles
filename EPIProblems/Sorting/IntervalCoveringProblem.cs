@@ -1,20 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.Sorting
 {
-	/// <summary>
-	/// You are given a set of closed intervals. Design an efficient algorithm to find the 
-	/// minimum number of numbers that covers all the intervals
-	/// </summary>
-	/// <example>
-	/// Intervals: {[0,3],[2,6],[3,4],[6,9]} can be covered by visiting at 0,2,3,6 or 3,6 or 3,9 etc...
-	/// The smallest number of times visit is required is 2. So 3,6 or 3,9 are valid answers
-	/// </example>
-	public static class IntervalCoveringProblem
+    /// <summary>
+    /// You are given a set of closed intervals. Design an efficient algorithm to find the 
+    /// minimum number of numbers that covers all the intervals
+    /// </summary>
+    /// <example>
+    /// Intervals: {[0,3],[2,6],[3,4],[6,9]} can be covered by visiting at 0,2,3,6 or 3,6 or 3,9 etc...
+    /// The smallest number of times visit is required is 2. So 3,6 or 3,9 are valid answers
+    /// </example>
+    public static class IntervalCoveringProblem
 	{
 		public struct Interval
 		{

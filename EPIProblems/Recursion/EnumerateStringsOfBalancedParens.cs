@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace EPI.Recursion
 {
-	/// <summary>
-	/// Find the list of all strings that have k pairs of matched parenthesis
-	/// </summary>
-	/// <example>
-	/// k=1, return {"()"}
-	/// k=2, returns { "(())", "()()" }
-	/// k=3, returns { "((()))", "(()())", "(())()", "()(())", "()()()" }
-	/// </example>
-	public static class EnumerateStringsOfBalancedParens
+    /// <summary>
+    /// Find the list of all strings that have k pairs of matched parenthesis
+    /// </summary>
+    /// <example>
+    /// k=1, return {"()"}
+    /// k=2, returns { "(())", "()()" }
+    /// k=3, returns { "((()))", "(()())", "(())()", "()(())", "()()()" }
+    /// </example>
+    public static class EnumerateStringsOfBalancedParens
 	{
 		public static List<string> ListAllMatchedParens(int k)
 		{

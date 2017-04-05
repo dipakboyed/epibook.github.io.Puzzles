@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EPI.BinaryTree
+﻿namespace EPI.BinaryTree
 {
-	/// <summary>
-	/// Design an algorithm that efficiently finds the kth node appearing in an inorder traversal.
-	/// Assume that each node also stores the number of nodes in the subtree rooted at the node
-	/// </summary>
-	public static class FindKthNodeInOrderTraversal<I>
+    /// <summary>
+    /// Design an algorithm that efficiently finds the kth node appearing in an inorder traversal.
+    /// Assume that each node also stores the number of nodes in the subtree rooted at the node
+    /// </summary>
+    public static class FindKthNodeInOrderTraversal<I>
 	{
 		public class BinaryTreeNodeWithSize<T>
 		{

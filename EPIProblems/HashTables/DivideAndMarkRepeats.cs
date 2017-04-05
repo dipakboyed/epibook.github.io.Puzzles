@@ -1,21 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.HashTables
 {
-	/// <summary>
-	/// Write a function that returns the result of dividing two natural numbers but
-	/// surrounds any repeated patterns in parenthesis
-	/// </summary>
-	/// <example>
-	/// 4 divided by 2 returns 2.(0)
-	/// 8 divided by 3 returns 2.(6)
-	/// 22 divided by 7 returns 3.(142857)
-	/// </example>
-	public static class DivideAndMarkRepeats
+    /// <summary>
+    /// Write a function that returns the result of dividing two natural numbers but
+    /// surrounds any repeated patterns in parenthesis
+    /// </summary>
+    /// <example>
+    /// 4 divided by 2 returns 2.(0)
+    /// 8 divided by 3 returns 2.(6)
+    /// 22 divided by 7 returns 3.(142857)
+    /// </example>
+    public static class DivideAndMarkRepeats
 	{
 		public static string DivideXbyY(int x, int y)
 		{

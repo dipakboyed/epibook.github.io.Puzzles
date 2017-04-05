@@ -1,17 +1,15 @@
-﻿
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace EPI.Strings
 {
-	/// <summary>
-	/// Elias Gamma code of a positive integer ( > 0), n is computed as:
-	/// - Write n in binary to form a string b
-	/// - Subtract 1 from the number of bits and add that many zeros to the beginning of b.
-	/// Implement encode and decode functions and assume input always contains valid characters
-	/// </summary>
-	/// <example>Elias gamma code of 13 (1101 in binary) is 0001101</example>
-	public static class EliasGammaEncoding
+    /// <summary>
+    /// Elias Gamma code of a positive integer ( > 0), n is computed as:
+    /// - Write n in binary to form a string b
+    /// - Subtract 1 from the number of bits and add that many zeros to the beginning of b.
+    /// Implement encode and decode functions and assume input always contains valid characters
+    /// </summary>
+    /// <example>Elias gamma code of 13 (1101 in binary) is 0001101</example>
+    public static class EliasGammaEncoding
 	{
 		public static string EliasGammaEncode(int[] inputNumbers)
 		{

@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EPI.PrimitiveTypes
+﻿namespace EPI.PrimitiveTypes
 {
-	/// <summary>
-	/// Multiply two non negative integers using only bitwise and assignment operators
-	/// </summary>
-	public static class Multiply
+    /// <summary>
+    /// Multiply two non negative integers using only bitwise and assignment operators
+    /// </summary>
+    public static class Multiply
 	{
 		public static int MultiplyXandY(int x, int y)
 		{

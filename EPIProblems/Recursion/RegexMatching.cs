@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EPI.Recursion
+﻿namespace EPI.Recursion
 {
-	/// <summary>
-	/// Design an algorithm that takes a string s and a string (assumed to be a well-formed
-	/// ESRE {Extended Simple Regular Expression}) and checks if r matches s.
-	/// </summary>
-	/// <remarks>
-	/// ESRE can contain alphanumeric character, dot character, * character, ^ and $ characters.
-	/// </remarks>
-	public static class RegexMatching
+    /// <summary>
+    /// Design an algorithm that takes a string s and a string (assumed to be a well-formed
+    /// ESRE {Extended Simple Regular Expression}) and checks if r matches s.
+    /// </summary>
+    /// <remarks>
+    /// ESRE can contain alphanumeric character, dot character, * character, ^ and $ characters.
+    /// </remarks>
+    public static class RegexMatching
 	{
 		public static bool IsMatch(string s, string regex)
 		{

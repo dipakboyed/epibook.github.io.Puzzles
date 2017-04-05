@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace EPI.Arrays
 {
-	/// <summary>
-	/// You are given n real numbers {t0, t1, ...tn-1} and probabilities {p0,p1,...pn-1}
-	/// which sum up to 1.
-	/// Given a Random number generator that produces values in [0,1] uniformly, how would you
-	/// generate a number T according to the specific probabilities?
-	/// </summary>
-	public static class NonUniformRandomNumberGenerator
+    /// <summary>
+    /// You are given n real numbers {t0, t1, ...tn-1} and probabilities {p0,p1,...pn-1}
+    /// which sum up to 1.
+    /// Given a Random number generator that produces values in [0,1] uniformly, how would you
+    /// generate a number T according to the specific probabilities?
+    /// </summary>
+    public static class NonUniformRandomNumberGenerator
 	{
 		public static Random randomGenerator = new Random();
 

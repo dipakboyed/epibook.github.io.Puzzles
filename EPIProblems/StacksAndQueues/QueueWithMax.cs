@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.StacksAndQueues
 {
-	public class QueueWithMax<T> where T: IComparable
+    public class QueueWithMax<T> where T: IComparable
 	{
 		private StackWithMax<T> stack1, stack2;
 

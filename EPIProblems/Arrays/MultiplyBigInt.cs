@@ -1,15 +1,13 @@
-﻿﻿using System.Linq;
-
-﻿namespace EPI.Arrays
+﻿﻿namespace EPI.Arrays
 {
-	/// <summary>
-	/// Write a function that takes as input two strings representing integers
-	/// and returns their product as a string
-	/// </summary>
-	/// <example>
-	/// "123" x "-456" returns "-56088"
-	/// </example>
-	public static class MultiplyBigInt
+    /// <summary>
+    /// Write a function that takes as input two strings representing integers
+    /// and returns their product as a string
+    /// </summary>
+    /// <example>
+    /// "123" x "-456" returns "-56088"
+    /// </example>
+    public static class MultiplyBigInt
 	{
 		public static string Multiply(string number1, string number2)
 		{

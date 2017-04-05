@@ -1,20 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EPI.Sorting
 {
-	/// <summary>
-	/// Design an algorithm that takes as input a set of intervals and outputs their union expressed as a set of disjoint intervals.
-	/// </summary>
-	/// <example>
-	/// {} => open interval, [] => closed interval
-	/// {0,3},[1,1],[3,4},[2,4],[5,7},[7,8},[8,11},{9,11], [12,14],{12,16],{13,15},{16,17} returns
-	/// {0,4],[5,11],[12,17}
-	/// </example>
-	public static class UnionOfIntervals
+    /// <summary>
+    /// Design an algorithm that takes as input a set of intervals and outputs their union expressed as a set of disjoint intervals.
+    /// </summary>
+    /// <example>
+    /// {} => open interval, [] => closed interval
+    /// {0,3},[1,1],[3,4},[2,4],[5,7},[7,8},[8,11},{9,11], [12,14],{12,16],{13,15},{16,17} returns
+    /// {0,4],[5,11],[12,17}
+    /// </example>
+    public static class UnionOfIntervals
 	{
 		public struct Entry
 		{

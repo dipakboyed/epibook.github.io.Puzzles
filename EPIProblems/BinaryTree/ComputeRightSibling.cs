@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EPI.BinaryTree
+﻿namespace EPI.BinaryTree
 {
-	public class BinaryTreeNodeWithNext<U>
+    public class BinaryTreeNodeWithNext<U>
 	{
 		public BinaryTreeNodeWithNext<U> Next;
 		public BinaryTreeNodeWithNext<U> Left;

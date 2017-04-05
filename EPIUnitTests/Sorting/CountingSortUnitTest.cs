@@ -1,11 +1,10 @@
-﻿using System;
-using EPI.Sorting;
+﻿using EPI.Sorting;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EPI.UnitTests.Sorting
 {
-	[TestClass]
+    [TestClass]
 	public class CountingSortUnitTest
 	{
 		[TestMethod]
