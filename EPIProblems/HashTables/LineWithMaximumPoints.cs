@@ -96,7 +96,7 @@ namespace EPI.HashTables
 
 		/// <summary>
 		/// A slope can be declared using the slope-intercept formula: y = mx + b
-		/// where m is the slop of the line and b is the y-intercept.
+		/// where m is the slope of the line and b is the y-intercept.
 		/// For two points (x1,y1) and (x2,y2) that are part of the line
 		/// m = y2 - y1 / x2 - x1 and b = x2y1 - x1y2 / x2 - x1.
 		/// 

@@ -22,6 +22,7 @@ namespace EPI.UnitTests.Searching
 		{
 			SquareRoot.DoubleSquareRoot(16).Should().Be(4);
 			SquareRoot.DoubleSquareRoot(1.0/4.0).Should().Be(1.0/2.0);
+			SquareRoot.DoubleSquareRoot(22.0/7.0).Should().Be(1.7728105208558367);
 		}
 	}
 }

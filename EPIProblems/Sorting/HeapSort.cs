@@ -62,7 +62,7 @@ namespace EPI.Sorting
 
 		private static void HeapifyUp(T[] array, int current)
 		{
-			int parent = (current + 1) / 2 - 1;
+			int parent = (current - 1) / 2;
 			while (parent >= 0)
 			{
 				int comparison = array[parent].CompareTo(array[current]);
